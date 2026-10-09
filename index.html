@@ -378,6 +378,19 @@
 			flex-wrap: wrap;
 		}
 
+		.card-footer-2row {
+			display: flex;
+			flex-direction: column;
+			gap: 0.65rem;
+			align-items: stretch;
+		}
+
+		.btn-sub-row {
+			display: flex;
+			gap: 0.6rem;
+			width: 100%;
+		}
+
 		.btn {
 			display: inline-flex;
 			align-items: center;
@@ -390,6 +403,19 @@
 			border-radius: 12px;
 			transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
 			cursor: pointer;
+			text-align: center;
+			white-space: nowrap;
+		}
+
+		.btn-play {
+			width: 100%;
+			font-size: 0.96rem;
+			padding: 0.75rem 1rem;
+		}
+
+		.btn-play-icon {
+			margin-right: 0.35rem;
+			font-size: 0.95em;
 		}
 
 		.btn-primary {
@@ -397,6 +423,22 @@
 			min-width: 130px;
 			color: #ffffff;
 			border: 1px solid rgba(255, 255, 255, 0.15);
+		}
+
+		.btn-download {
+			flex: 1.35;
+			color: #ffffff;
+			border: 1px solid rgba(16, 185, 129, 0.3);
+			background: linear-gradient(135deg, #059669, #047857);
+			box-shadow: 0 4px 14px rgba(5, 150, 105, 0.35);
+			font-size: 0.86rem;
+			padding: 0.65rem 0.85rem;
+		}
+
+		.btn-download:hover {
+			background: linear-gradient(135deg, #10b981, #059669);
+			box-shadow: 0 6px 20px rgba(5, 150, 105, 0.5);
+			transform: scale(1.02);
 		}
 
 		.btn-secondary {
@@ -410,6 +452,12 @@
 			background: rgba(255, 255, 255, 0.1);
 			color: #ffffff;
 			transform: scale(1.02);
+		}
+
+		.btn-github-sub {
+			flex: 1;
+			font-size: 0.86rem;
+			padding: 0.65rem 0.85rem;
 		}
 
 		.project-card[data-theme="games"] .btn-primary {
@@ -542,16 +590,19 @@
 						</li>
 					</ul>
 				</div>
-				<div class="card-footer">
-					<a href="https://chobitschii.github.io/games/" class="btn btn-primary" title="Games Web-Portal öffnen">
-						▶ Im Browser spielen
+				<div class="card-footer card-footer-2row">
+					<a href="https://chobitschii.github.io/games/" class="btn btn-primary btn-play" title="Games Web-Portal öffnen">
+						<span class="btn-play-icon">▶</span> Im Browser spielen
 					</a>
-					<a href="https://github.com/ChobitsChii/games" target="_blank" rel="noopener" class="btn btn-secondary" title="GitHub Repository">
-						GitHub
-					</a>
-					<a href="https://github.com/ChobitsChii/games/releases" target="_blank" rel="noopener" class="btn btn-secondary" title="Releases & Downloads">
-						Releases
-					</a>
+					<div class="btn-sub-row">
+						<a href="https://github.com/ChobitsChii/games/releases" target="_blank" rel="noopener" class="btn btn-download" title="Releases & Downloads">
+							📦 Downloads & Releases
+						</a>
+						<a href="https://github.com/ChobitsChii/games" target="_blank" rel="noopener" class="btn btn-secondary btn-github-sub" title="GitHub Repository">
+							<svg height="15" width="15" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+							GitHub
+						</a>
+					</div>
 				</div>
 			</article>
 
@@ -567,15 +618,19 @@
 							<span class="tag tag-lang">Godot 4.7</span>
 							<span class="tag tag-lang">GDScript</span>
 							<span class="tag tag-ver">v0.1.0-beta.12</span>
-							<span class="tag tag-cat">3D Sandbox</span>
+							<span class="tag tag-cat">3D Sandbox / Web</span>
 						</div>
 					</div>
 				</div>
 				<div class="card-body">
 					<p class="card-desc">
-						Gemütliches 3D-Diorama-Bauspiel im Low-Poly-Voxelstil für Linux, Windows und Android. Erschaffe eigene Miniatur-Inselwelten mit 38 verschiedenen Objekten, dynamischen Rastergrößen, Tag- & Nacht-Atmosphäre und interaktivem Erkunden-Modus.
+						Gemütliches 3D-Diorama-Bauspiel im Low-Poly-Voxelstil für Linux, Windows, Android und direkt im Browser. Erschaffe eigene Miniatur-Inselwelten mit 38 verschiedenen Objekten, dynamischen Rastergrößen, Tag- & Nacht-Atmosphäre und interaktivem Erkunden-Modus.
 					</p>
 					<ul class="feature-list">
+						<li>
+							<svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+							Direkt im Browser spielbar via WebAssembly & WebGL
+						</li>
 						<li>
 							<svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
 							Umfangreicher 3D-Baukatalog (Böden, Gebäude, Natur, Tiere, Deko)
@@ -584,19 +639,21 @@
 							<svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
 							Cross-Platform: Desktop & Android Touch mit Dual-UI
 						</li>
-						<li>
-							<svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
-							Volles Undo/Redo & JSON-Speicher- und Synchronisationssystem
-						</li>
 					</ul>
 				</div>
-				<div class="card-footer">
-					<a href="https://github.com/ChobitsChii/diorama-godot/releases" target="_blank" rel="noopener" class="btn btn-primary" title="Diorama Releases ansehen">
-						📦 Downloads & Releases
+				<div class="card-footer card-footer-2row">
+					<a href="https://chobitschii.github.io/diorama-godot/" class="btn btn-primary btn-play" title="Diorama Godot im Browser spielen">
+						<span class="btn-play-icon">▶</span> Im Browser spielen
 					</a>
-					<a href="https://github.com/ChobitsChii/diorama-godot" target="_blank" rel="noopener" class="btn btn-secondary" title="GitHub Repository">
-						GitHub
-					</a>
+					<div class="btn-sub-row">
+						<a href="https://github.com/ChobitsChii/diorama-godot/releases" target="_blank" rel="noopener" class="btn btn-download" title="Diorama Releases ansehen">
+							📦 Downloads & Releases
+						</a>
+						<a href="https://github.com/ChobitsChii/diorama-godot" target="_blank" rel="noopener" class="btn btn-secondary btn-github-sub" title="GitHub Repository">
+							<svg height="15" width="15" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+							GitHub
+						</a>
+					</div>
 				</div>
 			</article>
 

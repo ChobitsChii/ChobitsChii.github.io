@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 380" role="img" aria-labelledby="title desc">
+  <title id="title">Modulon Icon</title>
+  <desc id="desc">A colorful nerdy icon made from glowing modular cubes connected by circuit traces on a transparent background.</desc>
+  <defs>
+    <linearGradient id="blueTop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8CF8FF"/>
+      <stop offset="55%" stop-color="#32D1FF"/>
+      <stop offset="100%" stop-color="#168BFF"/>
+    </linearGradient>
+    <linearGradient id="blueLeft" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1581FF"/>
+      <stop offset="100%" stop-color="#0B43C9"/>
+    </linearGradient>
+    <linearGradient id="blueRight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#45A8FF"/>
+      <stop offset="100%" stop-color="#1249E5"/>
+    </linearGradient>
+
+    <linearGradient id="greenTop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#C7FF8B"/>
+      <stop offset="55%" stop-color="#56F08F"/>
+      <stop offset="100%" stop-color="#11D960"/>
+    </linearGradient>
+    <linearGradient id="greenLeft" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#11D960"/>
+      <stop offset="100%" stop-color="#0C9A49"/>
+    </linearGradient>
+    <linearGradient id="greenRight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#34E57B"/>
+      <stop offset="100%" stop-color="#10863F"/>
+    </linearGradient>
+
+    <linearGradient id="purpleTop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFD4FF"/>
+      <stop offset="50%" stop-color="#ED7BFF"/>
+      <stop offset="100%" stop-color="#B03CFF"/>
+    </linearGradient>
+    <linearGradient id="purpleLeft" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#C85CFF"/>
+      <stop offset="100%" stop-color="#7C21E8"/>
+    </linearGradient>
+    <linearGradient id="purpleRight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E18EFF"/>
+      <stop offset="100%" stop-color="#8E26FF"/>
+    </linearGradient>
+
+    <filter id="glowBlue" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feColorMatrix in="blur" type="matrix"
+        values="0 0 0 0 0.12
+                0 0 0 0 0.74
+                0 0 0 0 1
+                0 0 0 0.88 0" result="c"/>
+      <feMerge><feMergeNode in="c"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glowGreen" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feColorMatrix in="blur" type="matrix"
+        values="0 0 0 0 0.19
+                0 0 0 0 1
+                0 0 0 0 0.45
+                0 0 0 0.88 0" result="c"/>
+      <feMerge><feMergeNode in="c"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glowPurple" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feColorMatrix in="blur" type="matrix"
+        values="0 0 0 0 0.86
+                0 0 0 0 0.35
+                0 0 0 0 1
+                0 0 0 0.88 0" result="c"/>
+      <feMerge><feMergeNode in="c"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softShadow" x="-30%" y="-30%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#081122" flood-opacity="0.25"/>
+    </filter>
+    <style>
+      .stroke-white { stroke: rgba(255,255,255,.94); stroke-width: 8; stroke-linejoin: round; stroke-linecap: round; fill: none; }
+      .trace-blue { stroke: #8CD8FF; }
+      .trace-green { stroke: #C7FFB3; }
+      .trace-purple { stroke: #F2BEFF; }
+      .trace { fill: none; stroke-width: 14; stroke-linecap: round; stroke-linejoin: round; }
+      .trace-thin { fill: none; stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; opacity: .9; }
+      .node-core { fill: #F8FDFF; }
+      .node-ring-blue { stroke: #41C4FF; }
+      .node-ring-green { stroke: #6AFF8B; }
+      .node-ring-purple { stroke: #E677FF; }
+      .node-ring { fill: none; stroke-width: 6; }
+      .node-pin { fill: #FFFFFF; opacity: .97; }
+      .subglow { opacity: .35; }
+    </style>
+  </defs>
+
+  <g transform="translate(22,16) scale(0.9)" filter="url(#softShadow)">
+    <ellipse cx="140" cy="62" rx="95" ry="60" fill="#25B2FF" opacity=".22" filter="url(#glowBlue)"/>
+    <ellipse cx="120" cy="246" rx="105" ry="70" fill="#1BEA78" opacity=".22" filter="url(#glowGreen)"/>
+    <ellipse cx="282" cy="230" rx="115" ry="80" fill="#D854FF" opacity=".24" filter="url(#glowPurple)"/>
+
+    <g filter="url(#glowBlue)">
+      <polygon points="92,10 166,52 92,94 18,52" fill="url(#blueTop)"/>
+      <polygon points="18,52 92,94 92,188 18,146" fill="url(#blueLeft)"/>
+      <polygon points="92,94 166,52 166,146 92,188" fill="url(#blueRight)"/>
+      <polyline points="18,52 92,94 166,52" class="stroke-white"/>
+      <line x1="92" y1="94" x2="92" y2="188" class="stroke-white"/>
+      <line x1="92" y1="10" x2="166" y2="52" class="stroke-white" opacity=".75"/>
+      <line x1="92" y1="10" x2="18" y2="52" class="stroke-white" opacity=".75"/>
+      <polygon points="34,62 90,94 90,176 34,144" fill="rgba(255,255,255,.08)"/>
+      <polyline points="36,63 90,94 145,61" class="stroke-white" opacity=".15"/>
+    </g>
+
+    <g filter="url(#glowGreen)">
+      <polygon points="92,184 166,226 92,268 18,226" fill="url(#greenTop)"/>
+      <polygon points="18,226 92,268 92,362 18,320" fill="url(#greenLeft)"/>
+      <polygon points="92,268 166,226 166,320 92,362" fill="url(#greenRight)"/>
+      <polyline points="18,226 92,268 166,226" class="stroke-white"/>
+      <line x1="92" y1="268" x2="92" y2="362" class="stroke-white"/>
+      <line x1="92" y1="184" x2="166" y2="226" class="stroke-white" opacity=".75"/>
+      <line x1="92" y1="184" x2="18" y2="226" class="stroke-white" opacity=".75"/>
+      <polygon points="34,236 90,268 90,350 34,318" fill="rgba(255,255,255,.08)"/>
+      <polyline points="36,237 90,268 145,235" class="stroke-white" opacity=".15"/>
+    </g>
+
+    <g filter="url(#glowPurple)">
+      <polygon points="258,136 332,178 258,220 184,178" fill="url(#purpleTop)"/>
+      <polygon points="184,178 258,220 258,362 184,320" fill="url(#purpleLeft)"/>
+      <polygon points="258,220 332,178 332,320 258,362" fill="url(#purpleRight)"/>
+      <polyline points="184,178 258,220 332,178" class="stroke-white"/>
+      <line x1="258" y1="220" x2="258" y2="362" class="stroke-white"/>
+      <line x1="258" y1="136" x2="332" y2="178" class="stroke-white" opacity=".75"/>
+      <line x1="258" y1="136" x2="184" y2="178" class="stroke-white" opacity=".75"/>
+      <polygon points="200,188 256,220 256,350 200,318" fill="rgba(255,255,255,.08)"/>
+      <polyline points="202,189 256,220 311,187" class="stroke-white" opacity=".15"/>
+    </g>
+
+    <g class="subglow">
+      <path d="M120 42 L142 54" class="trace-thin trace-blue"/>
+      <path d="M48 248 L66 258 L66 338" class="trace-thin trace-green"/>
+      <path d="M288 162 L310 175 L310 280" class="trace-thin trace-purple"/>
+    </g>
+
+    <g filter="url(#glowBlue)">
+      <path d="M175 98 L222 98 L264 66 L336 92" class="trace trace-blue"/>
+      <path d="M175 98 L220 126 L290 92" class="trace-thin trace-blue"/>
+      <circle cx="176" cy="98" r="21" class="node-core"/>
+      <circle cx="176" cy="98" r="18" class="node-ring node-ring-blue"/>
+      <circle cx="336" cy="92" r="17" class="node-core"/>
+      <circle cx="336" cy="92" r="14" class="node-ring node-ring-blue"/>
+      <circle cx="252" cy="76" r="7" class="node-pin"/>
+    </g>
+
+    <g filter="url(#glowGreen)">
+      <path d="M126 230 L126 268 L176 268" class="trace trace-green"/>
+      <path d="M126 268 L150 286" class="trace-thin trace-green"/>
+      <circle cx="126" cy="268" r="17" class="node-core"/>
+      <circle cx="126" cy="268" r="14" class="node-ring node-ring-green"/>
+      <circle cx="176" cy="230" r="16" class="node-core"/>
+      <circle cx="176" cy="230" r="13" class="node-ring node-ring-green"/>
+    </g>
+
+    <g filter="url(#glowPurple)">
+      <path d="M214 196 L214 270" class="trace trace-purple"/>
+      <path d="M214 196 L252 174" class="trace-thin trace-purple"/>
+      <circle cx="214" cy="196" r="19" class="node-core"/>
+      <circle cx="214" cy="196" r="16" class="node-ring node-ring-purple"/>
+      <circle cx="214" cy="270" r="16" class="node-core"/>
+      <circle cx="214" cy="270" r="13" class="node-ring node-ring-purple"/>
+      <circle cx="252" cy="174" r="7" class="node-pin"/>
+    </g>
+  </g>
+</svg>

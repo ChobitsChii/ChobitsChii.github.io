@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1b3820"/>
+      <stop offset="1" stop-color="#0e1f13"/>
+    </linearGradient>
+    <linearGradient id="shield_g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3ddc84"/>
+      <stop offset="1" stop-color="#0a9446"/>
+    </linearGradient>
+    <linearGradient id="sun_g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffe600"/>
+      <stop offset="1" stop-color="#ff9900"/>
+    </linearGradient>
+    <linearGradient id="cannon_g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4fc3f7"/>
+      <stop offset="1" stop-color="#0288d1"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="48" fill="url(#bg)"/>
+  <!-- Energy Sun -->
+  <circle cx="64" cy="64" r="24" fill="url(#sun_g)"/>
+  <circle cx="64" cy="64" r="28" stroke="#ffe600" stroke-width="3" stroke-dasharray="6,4" fill="none"/>
+  <!-- Lane lines -->
+  <line x1="32" y1="120" x2="224" y2="120" stroke="#2e5936" stroke-width="4" stroke-dasharray="12,12"/>
+  <line x1="32" y1="180" x2="224" y2="180" stroke="#2e5936" stroke-width="4" stroke-dasharray="12,12"/>
+  <!-- Shield emblem -->
+  <path d="M 128 72 L 184 96 C 184 156 128 196 128 196 C 128 196 72 156 72 96 Z" fill="url(#shield_g)" stroke="#7cf7a8" stroke-width="4"/>
+  <!-- Cannon turret center -->
+  <circle cx="128" cy="128" r="20" fill="url(#cannon_g)" stroke="#b3e5fc" stroke-width="3"/>
+  <rect x="124" y="94" width="8" height="24" rx="4" fill="url(#cannon_g)"/>
+</svg>

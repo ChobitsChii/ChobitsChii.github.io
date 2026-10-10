@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Dark modern gradient background with soft subtle glow -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e1322"/>
+      <stop offset="50%" stop-color="#090a10"/>
+      <stop offset="100%" stop-color="#140f28"/>
+    </linearGradient>
+
+    <radialGradient id="hubGlow" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.25"/>
+      <stop offset="50%" stop-color="#a855f7" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#090a10" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Project Colors: Cyan/Blue (Games), Emerald (Diorama/3D), Purple/Violet (ModulNest) -->
+    <linearGradient id="orbitGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+
+    <linearGradient id="nodeBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7dd3fc"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+
+    <linearGradient id="nodeGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+
+    <linearGradient id="nodePurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#7e22ce"/>
+    </linearGradient>
+
+    <!-- Center Core Glow & Gradient -->
+    <linearGradient id="coreGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="45%" stop-color="#e0e7ff"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <filter id="heavyGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Rounded Squircle App Icon Container -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)"/>
+  <rect width="512" height="512" rx="112" fill="url(#hubGlow)"/>
+  <rect width="504" height="504" x="4" y="4" rx="108" fill="none" stroke="rgba(255, 255, 255, 0.12)" stroke-width="2"/>
+
+  <!-- Orbital Connector Circuit Rings -->
+  <circle cx="256" cy="256" r="160" fill="none" stroke="rgba(255, 255, 255, 0.08)" stroke-width="3" stroke-dasharray="10 8"/>
+  <circle cx="256" cy="256" r="160" fill="none" stroke="url(#orbitGrad)" stroke-width="3.5" stroke-dasharray="120 220" opacity="0.85"/>
+
+  <!-- Orbital Spokes connecting to central hub -->
+  <line x1="256" y1="256" x2="256" y2="96" stroke="url(#nodeBlue)" stroke-width="3.5" opacity="0.6"/>
+  <line x1="256" y1="256" x2="395" y2="336" stroke="url(#nodePurple)" stroke-width="3.5" opacity="0.6"/>
+  <line x1="256" y1="256" x2="117" y2="336" stroke="url(#nodeGreen)" stroke-width="3.5" opacity="0.6"/>
+
+  <!-- Satellite Node 1: Top (Blue - Games/Code) -->
+  <g filter="url(#glow)">
+    <circle cx="256" cy="96" r="32" fill="url(#nodeBlue)"/>
+    <circle cx="256" cy="96" r="32" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.6"/>
+    <!-- Gamepad / Code mini silhouette -->
+    <path d="M246 96 h20 M256 86 v20" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Satellite Node 2: Bottom-Right (Purple - ModulNest/Modules) -->
+  <g filter="url(#glow)">
+    <circle cx="395" cy="336" r="32" fill="url(#nodePurple)"/>
+    <circle cx="395" cy="336" r="32" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.6"/>
+    <!-- Puzzle / Modular cube mini silhouette -->
+    <rect x="385" y="326" width="20" height="20" rx="4" fill="none" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <!-- Satellite Node 3: Bottom-Left (Emerald - 3D Diorama/World) -->
+  <g filter="url(#glow)">
+    <circle cx="117" cy="336" r="32" fill="url(#nodeGreen)"/>
+    <circle cx="117" cy="336" r="32" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.6"/>
+    <!-- Isometric cube/island mini silhouette -->
+    <path d="M117 323 l14 8 v14 l-14 8 l-14 -8 v-14 z" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Central Hub Core (Hexagonal Diamond / Nucleus with layered depth) -->
+  <g filter="url(#heavyGlow)">
+    <circle cx="256" cy="256" r="64" fill="rgba(99, 102, 241, 0.25)"/>
+  </g>
+  <g filter="url(#glow)">
+    <!-- Rotating diamond / hexagon -->
+    <polygon points="256,192 311,224 311,288 256,320 201,288 201,224" fill="url(#coreGrad)"/>
+    <polygon points="256,192 311,224 311,288 256,320 201,288 201,224" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.9"/>
+    
+    <!-- Inner faceted core -->
+    <polygon points="256,212 294,234 294,278 256,300 218,278 218,234" fill="#090a10" opacity="0.85"/>
+    
+    <!-- Central spark/star (Hub icon) -->
+    <circle cx="256" cy="256" r="14" fill="#ffffff"/>
+    <circle cx="256" cy="256" r="22" fill="none" stroke="#38bdf8" stroke-width="2.5" opacity="0.8"/>
+  </g>
+</svg>

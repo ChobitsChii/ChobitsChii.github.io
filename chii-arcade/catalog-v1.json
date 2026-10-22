@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-22T06:00:00Z",
-  "catalogMode": "preview",
+  "generatedAt": "2026-10-22T11:12:04.454088Z",
+  "catalogMode": "mixed",
   "games": [
     {
       "id": "lumaria",
@@ -16,10 +16,19 @@
       "id": "kaskellia",
       "title": "Kaskellia",
       "category": "Puzzle",
-      "teaser": "Entspannte Kugelrätsel in Lichtblütengärten.",
-      "description": "Ein farbenfrohes Bubble-Puzzle mit Kettenreaktionen und liebevoll gestalteten Lichtblütengärten. Dieser Eintrag ist eine Vorschau; Downloads werden später ergänzt.",
+      "teaser": "Farbenfrohe Kugelrätsel mit zauberhaften Kettenreaktionen.",
+      "description": "Entdecke 120 liebevoll gestaltete Kugelrätsel in zwölf farbenfrohen Regionen: Reise über die große verschiebbare Weltkarte von den Lichtblütengärten bis zur Himmelskrone. Sechs Power-ups entfesseln spektakuläre Kettenreaktionen – auch fallende Spezialkugeln zünden! Zeitsterne belohnen dein Tempo, jeder Sieg öffnet den nächsten Garten. Mit Ruhemodus, sanften Effekten, Spielhilfe und lokal gespeicherten Bestleistungen. Für Touch und Maus, im Hoch- und Querformat. Version 0.8.0 (M08).",
       "symbol": "🌸",
-      "preview": true
+      "preview": false,
+      "androidRelease": {
+        "packageName": "de.chobitschii.kaskellia",
+        "versionName": "0.8.0",
+        "versionCode": 8,
+        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/kaskellia-v0.8.0/kaskellia-m08.apk",
+        "sizeBytes": 57528130,
+        "sha256": "5584c030f256a9ca670525c06cb8b590c36cae373b90b8257b5bec17e790f346",
+        "signingCertificateSha256": "f180a9c294153bdc6fb700794bf980736ff1785331058beb933e474b8c8fcb5c"
+      }
     },
     {
       "id": "animal-lovers",

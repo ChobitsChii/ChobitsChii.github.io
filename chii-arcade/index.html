@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <title>Chii Arcade – Katalog-Vorschau</title>
+  <style>
+    :root { font-family: system-ui, sans-serif; color-scheme: dark; }
+    body { max-width: 880px; margin: 0 auto; padding: 2rem 1.25rem; background: #141524; color: #f5f7ff; line-height: 1.55; }
+    h1 { font-size: clamp(2rem, 7vw, 3rem); margin-bottom: .25rem; }
+    p { color: #bfc7e0; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap: 1rem; margin-top: 1.5rem; }
+    .card { border-radius: 20px; background: #292b43; padding: 1.2rem; border: 1px solid #45485d; }
+    .symbol { font-size: 2.2rem; }
+    a { color: #aabaff; }
+    .note { background: #343855; border-radius: 12px; padding: 1rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>🎮 Chii Arcade</h1>
+    <p>Eine gemeinsame Heimat für die Spiele von ChobitsChii.</p>
+    <div class="note">Dies ist eine öffentliche <strong>Vorschau</strong> des Katalogs. Hier gibt es noch keine APK-Downloads oder Installationen.</div>
+    <section class="grid" aria-label="Vorgestellte Projekte">
+      <article class="card"><div class="symbol">✨</div><h2>Lumaria</h2><p>Fantasievolles Abenteuer und Rätsel.</p></article>
+      <article class="card"><div class="symbol">🌸</div><h2>Kaskellia</h2><p>Farbenfrohes Bubble-Puzzle.</p></article>
+      <article class="card"><div class="symbol">🐾</div><h2>Animal Lovers</h2><p>Geplantes Tier- und Verwandlungsabenteuer.</p></article>
+    </section>
+    <p>Der Katalog liegt als <a href="./catalog-v1.json">öffentliche JSON-Datei</a> bereit und kann später von der Android-App gelesen werden.</p>
+    <p>© ChobitsChii · Kostenlos · Keine Nutzerkonten</p>
+  </main>
+</body>
+</html>

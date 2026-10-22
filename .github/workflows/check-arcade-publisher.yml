@@ -1,0 +1,24 @@
+name: Chii Arcade Publisher Check
+
+on:
+  pull_request:
+    paths:
+      - 'chii-arcade/tools/**'
+      - '.github/workflows/check-arcade-publisher.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'chii-arcade/tools/**'
+
+permissions:
+  contents: read
+
+jobs:
+  syntax:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check Python publisher syntax
+        run: |
+          python3 -m py_compile chii-arcade/tools/publish_game.py
+          python3 chii-arcade/tools/publish_game.py --help

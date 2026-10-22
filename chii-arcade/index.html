@@ -4,31 +4,92 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="dark light">
-  <title>Chii Arcade – Katalog-Vorschau</title>
+  <title>Chii Arcade – kostenlose Android-Spiele</title>
   <style>
     :root { font-family: system-ui, sans-serif; color-scheme: dark; }
-    body { max-width: 880px; margin: 0 auto; padding: 2rem 1.25rem; background: #141524; color: #f5f7ff; line-height: 1.55; }
-    h1 { font-size: clamp(2rem, 7vw, 3rem); margin-bottom: .25rem; }
-    p { color: #bfc7e0; }
-    .grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap: 1rem; margin-top: 1.5rem; }
-    .card { border-radius: 20px; background: #292b43; padding: 1.2rem; border: 1px solid #45485d; }
-    .symbol { font-size: 2.2rem; }
-    a { color: #aabaff; }
-    .note { background: #343855; border-radius: 12px; padding: 1rem; }
+    body { max-width: 860px; margin: 0 auto; padding: 2rem 1.25rem; background: #141524; color: #f5f7ff; line-height: 1.6; }
+    h1 { font-size: clamp(2.2rem, 7vw, 3.3rem); margin-bottom: .25rem; }
+    p { color: #c4cce1; }
+    .panel { padding: 1.25rem; background: #292d49; border: 1px solid #535774; border-radius: 20px; margin: 1.2rem 0; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(235px,1fr)); gap: 1rem; }
+    .game { background: #22263e; border-radius: 18px; padding: 1.25rem; border: 1px solid #40465e; }
+    .symbol { font-size: 2.8rem; }
+    .button { display: inline-block; border-radius: 12px; background: #abafff; color: #151638; font-weight: 700; text-decoration: none; padding: .75rem 1.2rem; }
+    a { color: #d4d4ff; }
+    .button:hover { background: #c6c9ff; }
   </style>
 </head>
 <body>
   <main>
     <h1>🎮 Chii Arcade</h1>
-    <p>Eine gemeinsame Heimat für die Spiele von ChobitsChii.</p>
-    <div class="note">Dies ist eine öffentliche <strong>Vorschau</strong> des Katalogs. Hier gibt es noch keine APK-Downloads oder Installationen.</div>
-    <section class="grid" aria-label="Vorgestellte Projekte">
-      <article class="card"><div class="symbol">✨</div><h2>Lumaria</h2><p>Fantasievolles Abenteuer und Rätsel.</p></article>
-      <article class="card"><div class="symbol">🌸</div><h2>Kaskellia</h2><p>Farbenfrohes Bubble-Puzzle.</p></article>
-      <article class="card"><div class="symbol">🐾</div><h2>Animal Lovers</h2><p>Geplantes Tier- und Verwandlungsabenteuer.</p></article>
+    <p>Ein kostenloser Android-Store für die Spiele von ChobitsChii. Ohne Registrierung, Werbung oder In-App-Käufe.</p>
+
+    <section class="panel" aria-labelledby="download-title">
+      <h2 id="download-title">Chii Arcade installieren</h2>
+      <p id="download-status" role="status">Die öffentliche Store-Version wird vorbereitet.</p>
+      <div id="download"></div>
+      <p>Android kann dich bitten, die Installation aus dieser Quelle zu erlauben. Bitte nur aus Quellen installieren, denen du vertraust.</p>
     </section>
-    <p>Der Katalog liegt als <a href="./catalog-v1.json">öffentliche JSON-Datei</a> bereit und kann später von der Android-App gelesen werden.</p>
-    <p>© ChobitsChii · Kostenlos · Keine Nutzerkonten</p>
+
+    <h2>Verfügbare Spiele</h2>
+    <section class="grid" id="games" aria-label="Installierbare Spiele">
+      <p>Spielekatalog wird geladen …</p>
+    </section>
+    <p>Die App funktioniert mit gespeicherten Katalogdaten auch ohne Internet. Neue Installationen benötigen eine Verbindung.</p>
+    <p><a href="./catalog-v1.json">Öffentlichen Katalog anzeigen</a></p>
   </main>
+  <script>
+    async function getJSON(path) {
+      const response = await fetch(path, {cache: "no-cache"});
+      if (!response.ok) throw new Error("HTTP " + response.status);
+      return response.json();
+    }
+    async function showStore() {
+      const status = document.getElementById("download-status");
+      try {
+        const metadata = await getJSON("./store-release.json");
+        const release = metadata.release;
+        const expected = /^https:\/\/github\.com\/ChobitsChii\/chii-arcade-releases\/releases\/download\/store-v[\w.-]+\/chii-arcade-v[\w.-]+\.apk$/;
+        if (release && expected.test(release.apkUrl)) {
+          const anchor = document.createElement("a");
+          anchor.className = "button";
+          anchor.href = release.apkUrl;
+          anchor.textContent = "Chii Arcade " + release.versionName + " herunterladen";
+          document.getElementById("download").appendChild(anchor);
+          status.textContent = "Aktuelle Android-Version " + release.versionName + ".";
+        }
+      } catch (_) {
+        status.textContent = "Der Store-Download ist momentan nicht verfügbar.";
+      }
+    }
+    async function showGames() {
+      const node = document.getElementById("games");
+      try {
+        const catalog = await getJSON("./catalog-v1.json");
+        const games = catalog.games.filter(g => !g.preview && g.androidRelease);
+        node.replaceChildren();
+        for (const game of games) {
+          const card = document.createElement("article");
+          card.className = "game";
+          const icon = document.createElement("div");
+          icon.className = "symbol";
+          icon.textContent = game.symbol || "🎮";
+          const title = document.createElement("h3");
+          title.textContent = game.title;
+          const desc = document.createElement("p");
+          desc.textContent = game.teaser;
+          const version = document.createElement("p");
+          version.textContent = "Android-Version " + game.androidRelease.versionName;
+          card.append(icon, title, desc, version);
+          node.appendChild(card);
+        }
+        if (!games.length) node.textContent = "Noch keine Spiele veröffentlicht.";
+      } catch (_) {
+        node.textContent = "Der Spielekatalog konnte nicht geladen werden.";
+      }
+    }
+    showStore();
+    showGames();
+  </script>
 </body>
 </html>

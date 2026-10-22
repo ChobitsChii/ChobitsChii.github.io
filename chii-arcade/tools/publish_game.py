@@ -41,8 +41,9 @@ def sdk_binary(tool: str) -> str:
     found = shutil.which(tool)
     if found:
         return found
-    for env in ("ANDROID_HOME", "ANDROID_SDK_ROOT"):
-        root = os.environ.get(env)
+    roots = [os.environ.get("ANDROID_HOME"), os.environ.get("ANDROID_SDK_ROOT"),
+             str(Path.home() / "Android" / "Sdk")]
+    for root in roots:
         if not root:
             continue
         options = sorted((Path(root) / "build-tools").glob(f"*/{tool}"), reverse=True)
@@ -105,6 +106,8 @@ def main() -> int:
     apk = args.apk.expanduser().resolve()
     if not apk.is_file() or apk.suffix.lower() != ".apk":
         raise RuntimeError("Die angegebene APK fehlt.")
+    if not re.fullmatch(r"[a-zA-Z0-9._-]+\\.apk", apk.name):
+        raise RuntimeError("APK-Dateiname darf nur Buchstaben, Zahlen, Punkt, Unterstrich und Bindestrich enthalten.")
     game_id = config["id"]
     if not ID_PATTERN.fullmatch(game_id):
         raise RuntimeError("Ungültige Spiel-ID.")

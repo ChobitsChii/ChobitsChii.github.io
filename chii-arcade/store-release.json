@@ -1,5 +1,14 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "release": null
+  "release": {
+    "packageName": "io.github.chobitschii.chiiarcade",
+    "versionName": "1.0.3",
+    "versionCode": 3,
+    "apkUrl": "https://github.com/ChobitsChii/chii-arcade-releases/releases/download/store-v1.0.3/chii-arcade-v1.0.3.apk",
+    "sizeBytes": 6564463,
+    "sha256": "357c5339ec54afa4d6a2dc118a04fac2e44a56791772bb0fceed233d8a283e1a",
+    "signingCertificateSha256": "41b56da15911be8bf8ee05760bd0bf22f11a658ae4cd8b4477d21cf3d662ea1b",
+    "publishedAt": "2026-10-22T17:09:19.696718Z"
+  }
 }

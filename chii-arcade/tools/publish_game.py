@@ -106,7 +106,7 @@ def main() -> int:
     apk = args.apk.expanduser().resolve()
     if not apk.is_file() or apk.suffix.lower() != ".apk":
         raise RuntimeError("Die angegebene APK fehlt.")
-    if not re.fullmatch(r"[a-zA-Z0-9._-]+\\.apk", apk.name):
+    if not re.fullmatch(r"[a-zA-Z0-9._-]+\.apk", apk.name):
         raise RuntimeError("APK-Dateiname darf nur Buchstaben, Zahlen, Punkt, Unterstrich und Bindestrich enthalten.")
     game_id = config["id"]
     if not ID_PATTERN.fullmatch(game_id):

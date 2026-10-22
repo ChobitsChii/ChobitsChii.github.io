@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-22T16:00:00Z",
+  "generatedAt": "2026-10-22T19:16:12.514462Z",
   "catalogMode": "mixed",
   "games": [
     {
@@ -19,6 +19,24 @@
         "sizeBytes": 57528130,
         "sha256": "5584c030f256a9ca670525c06cb8b590c36cae373b90b8257b5bec17e790f346",
         "signingCertificateSha256": "f180a9c294153bdc6fb700794bf980736ff1785331058beb933e474b8c8fcb5c"
+      }
+    },
+    {
+      "id": "tintaloria",
+      "title": "Tintaloria – Dein Königreich der Farben",
+      "category": "Malen nach Zahlen",
+      "teaser": "Frühe Testversion: ein freundlicher Schmetterling zum Ausmalen.",
+      "description": "Tintaloria – Dein Königreich der Farben ist eine frühe Testversion (M01-B) eines Malen-nach-Zahlen-Spiels. Ein Schmetterling mit 38 Feldern und sechs harmonischen Farben sowie eine technische Vier-Flächen-Probe sind vollständig ausmalbar. Wähle die passende Nummer in der Palette, vergrößere und verschiebe das Bild; erledigte Farben erhalten einen Haken. Fortschritt und Farbwahl werden pro Bild lokal gespeichert. Offline spielbar, kostenlos und werbefrei, ohne Käufe oder Konto. Galerie und weitere Inhalte sind noch in Entwicklung; Zusatzdownloads, sichtbare Hilfen und Zeitraffer fehlen noch. Auf einem Android-Emulator geprüft, noch nicht auf echten Smartphones abgenommen. Bei kleinen Ansichten zum Anzeigen der Farbnummern heranzoomen.",
+      "symbol": "🎨",
+      "preview": false,
+      "androidRelease": {
+        "packageName": "de.chobitschii.tintaloria",
+        "versionName": "0.1.0-m01b",
+        "versionCode": 2,
+        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/tintaloria-v0.1.0-m01b/tintaloria-0.1.0-m01b-code2.apk",
+        "sizeBytes": 54894804,
+        "sha256": "523d8878a5a89eb420f69752786804a6c58d78fec0eeb6d8ba96edb1aec04982",
+        "signingCertificateSha256": "1d36ce3ed5867bb9b680e5650099ab3a26f0d91ee8d98b823c022bdea5446556"
       }
     }
   ]

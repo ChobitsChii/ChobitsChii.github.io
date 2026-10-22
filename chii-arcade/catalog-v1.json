@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-22T06:00:00Z",
+  "catalogMode": "preview",
+  "games": [
+    {
+      "id": "lumaria",
+      "title": "Lumaria",
+      "category": "Abenteuer",
+      "teaser": "Eine fantasievolle Reise voller Rätsel.",
+      "description": "Entdecke Lumaria, ein fantasievolles Abenteuer mit einer sanften Geschichte, Licht und Rätseln. Dieser Eintrag ist eine Vorschau und kein Installationsangebot.",
+      "symbol": "✨",
+      "preview": true
+    },
+    {
+      "id": "kaskellia",
+      "title": "Kaskellia",
+      "category": "Puzzle",
+      "teaser": "Entspannte Kugelrätsel in Lichtblütengärten.",
+      "description": "Ein farbenfrohes Bubble-Puzzle mit Kettenreaktionen und liebevoll gestalteten Lichtblütengärten. Dieser Eintrag ist eine Vorschau; Downloads werden später ergänzt.",
+      "symbol": "🌸",
+      "preview": true
+    },
+    {
+      "id": "animal-lovers",
+      "title": "Animal Lovers",
+      "category": "Abenteuer",
+      "teaser": "Mit Tieren sprechen, verwandeln und Rätsel lösen.",
+      "description": "Ein geplantes Erkundungsabenteuer rund um Tierkommunikation, Verwandlungen und Rätsel. Das Projekt befindet sich in Planung und ist noch nicht installierbar.",
+      "symbol": "🐾",
+      "preview": true
+    }
+  ]
+}

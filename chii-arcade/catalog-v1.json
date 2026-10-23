@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T12:45:32.596249Z",
+  "generatedAt": "2026-10-23T13:09:36.917072Z",
   "catalogMode": "mixed",
   "games": [
     {
@@ -34,17 +34,17 @@
       "id": "tintaloria",
       "title": "Tintaloria – Dein Königreich der Farben",
       "category": "Malen nach Zahlen",
-      "teaser": "Deine Farbwelt – jetzt mit wählbarer deutscher und englischer Sprache.",
-      "description": "Tintaloria – Dein Königreich der Farben ist eine frühe Testversion (M03-UI-C) eines entspannten Malen-nach-Zahlen-Spiels. Ein eigenes Regenbogenschmetterlings-Icon und eine magische Blumenwelt begrüßen dich. Der Starttitel steht direkt auf der Illustration; Galerie, Meine Bilder und Einstellungen erhalten einen deutlich sichtbaren Blumenhintergrund. Der Boot-Splash bleibt textfrei. Die Sprache folgt wahlweise dem System oder lässt sich auf Deutsch beziehungsweise Englisch einstellen. Berühren, klicken oder eine Taste drücken startet die Galerie. Drei eigene Motive warten auf Farbe: Blumenkätzchen mit 32 Feldern und sieben Farben, Regenbogeneinhorn mit 42 Feldern und sieben Farben sowie Schmetterling mit 38 Feldern und sechs Farben. Galerie und Meine Bilder zeigen deinen tatsächlichen Farbfortschritt; Favoriten sind unabhängig vom Bearbeitungsstand. Wähle eine Farbe, zoome mit zwei Fingern und verschiebe das Bild. Passende offene Felder werden auf Wunsch grau markiert, fertige Farben lassen sich ausblenden. Fortschritt und Einstellungen werden lokal gespeichert. Alle enthaltenen Motive sind vollständig offline spielbar, kostenlos und werbefrei, ohne Käufe oder Konto. Eine technische Vier-Flächen-Probe liegt getrennt unter Testmotive. Weitere Bilder, Zusatzdownloads, automatische Hilfe und Zeitraffer sind noch in Entwicklung. Unter Linux und im Android-Emulator geprüft; Saras persönliche Spielprobe der M03-UI-C-Oberfläche sowie verbindliche Leistungsbudgets auf echten Smartphones stehen noch aus.",
+      "teaser": "Entspannt ausmalen mit hilfreichem Zielzoom und optional unbegrenzten Hilfen.",
+      "description": "Tintaloria – Dein Königreich der Farben ist eine frühe Testversion (M05) eines entspannten Malen-nach-Zahlen-Spiels. Ein eigenes Regenbogenschmetterlings-Icon und eine magische Blumenwelt begrüßen dich. Der Starttitel steht direkt auf der Illustration; Galerie, Meine Bilder und Einstellungen erhalten einen deutlich sichtbaren Blumenhintergrund. Der Boot-Splash bleibt textfrei. Die Sprache folgt wahlweise dem System oder lässt sich auf Deutsch beziehungsweise Englisch einstellen. Berühren, klicken oder eine Taste drücken startet die Galerie. Drei eigene Motive warten auf Farbe: Blumenkätzchen mit 32 Feldern und sieben Farben, Regenbogeneinhorn mit 42 Feldern und sieben Farben sowie Schmetterling mit 38 Feldern und sechs Farben. Galerie und Meine Bilder zeigen deinen tatsächlichen Farbfortschritt; Favoriten sind unabhängig vom Bearbeitungsstand. Wähle eine Farbe, zoome mit zwei Fingern und verschiebe das Bild. Passende offene Felder werden auf Wunsch grau markiert, fertige Farben lassen sich ausblenden. Ein Hilfe-Button findet ein offenes Feld deiner gewählten Farbe, zoomt darauf und markiert es kurz, ohne es auszumalen. Fünf Starthilfen, maximal zehn und eine neue nach 25 erstmals gefärbten Feldern; optional unbegrenzte Hilfen ohne Verbrauch. Fortschritt, Hilfekonto und Einstellungen werden lokal gespeichert. Alle enthaltenen Motive sind vollständig offline spielbar, kostenlos und werbefrei, ohne Käufe oder Konto. Eine technische Vier-Flächen-Probe liegt getrennt unter Testmotive. Weitere Bilder, Zusatzdownloads und Zeitraffer sind noch in Entwicklung. Unter Linux und im Android-Emulator geprüft; Saras persönliche Spielprobe der M05-Oberfläche sowie verbindliche Leistungsbudgets auf echten Smartphones stehen noch aus.",
       "symbol": "🎨",
       "preview": false,
       "androidRelease": {
         "packageName": "de.chobitschii.tintaloria",
-        "versionName": "0.3.3-ui",
-        "versionCode": 7,
-        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/tintaloria-v0.3.3-ui/tintaloria-0.3.3-ui-code7.apk",
-        "sizeBytes": 66461371,
-        "sha256": "c7c0beb3b272185e8a2c7ce478223aa6fa0e8ea15f5a012a912d8b4ff073db5a",
+        "versionName": "0.5.0-m05",
+        "versionCode": 8,
+        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/tintaloria-v0.5.0-m05/tintaloria-0.5.0-m05-code8-final.apk",
+        "sizeBytes": 66465467,
+        "sha256": "99f4a19947d791f6d267db9f231829ecc3560ea1232691eca4628a0b0332a40b",
         "signingCertificateSha256": "1d36ce3ed5867bb9b680e5650099ab3a26f0d91ee8d98b823c022bdea5446556"
       },
       "coverImage": "https://chobitschii.github.io/chii-arcade/assets/tintaloria/cover-8aa52a636d62.webp",

@@ -129,8 +129,12 @@ def main() -> int:
     for target, data, digest in images:
         existing = lookup(f"repos/{REPO}/contents/{target}?ref={BRANCH}")
         if existing is not None:
-            existing_bytes = base64.b64decode(existing["content"])
-            if hashlib.sha256(existing_bytes).hexdigest() != digest:
+            # GitHub Contents API may omit 'content' for files >1 MiB;
+            # compare git-blob SHA1 instead (covers every byte of the payload).
+            blob_sha = hashlib.sha1(
+                f"blob {len(data)}\\0".encode("ascii") + data
+            ).hexdigest()
+            if existing.get("sha") != blob_sha:
                 raise RuntimeError(f"Bild unter Hashnamen hat andere Daten: {target}")
             continue
         payload = {

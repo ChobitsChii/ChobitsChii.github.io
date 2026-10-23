@@ -5,10 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="dark light">
   <title>Chii Arcade – kostenlose Android-Spiele</title>
+  <meta name="theme-color" content="#200b3f">
+  <meta name="application-name" content="Chii Arcade">
+  <meta name="apple-mobile-web-app-title" content="Chii Arcade">
+  <link rel="icon" href="./favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+  <link rel="manifest" href="./site.webmanifest">
   <style>
     :root { font-family: system-ui, sans-serif; color-scheme: dark; }
     body { max-width: 860px; margin: 0 auto; padding: 2rem 1.25rem; background: #141524; color: #f5f7ff; line-height: 1.6; }
-    h1 { font-size: clamp(2.2rem, 7vw, 3.3rem); margin-bottom: .25rem; }
+    h1 { font-size: clamp(2rem, 7vw, 3.3rem); margin: 0; }
+    .brand { display: flex; align-items: center; gap: clamp(.7rem, 2.5vw, 1.1rem); margin: 0 0 1rem; }
+    .brand-icon { width: clamp(64px, 14vw, 100px); height: auto; aspect-ratio: 1; object-fit: contain; flex-shrink: 0; border-radius: 20%; }
+    .brand span { line-height: 1.13; }
     p { color: #c4cce1; }
     .panel { padding: 1.25rem; background: #292d49; border: 1px solid #535774; border-radius: 20px; margin: 1.2rem 0; }
     .grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(235px,1fr)); gap: 1rem; }
@@ -21,7 +33,7 @@
 </head>
 <body>
   <main>
-    <h1>🎮 Chii Arcade</h1>
+    <h1 class="brand"><img class="brand-icon" src="./assets/branding/chii-arcade-icon.webp" alt="" width="100" height="100" decoding="async"><span>Chii Arcade</span></h1>
     <p>Ein kostenloser Android-Store für die Spiele von ChobitsChii. Ohne Registrierung, Werbung oder In-App-Käufe.</p>
 
     <section class="panel" aria-labelledby="download-title">

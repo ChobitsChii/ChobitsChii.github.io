@@ -4,104 +4,73 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="dark light">
-  <title>Chii Arcade – kostenlose Android-Spiele</title>
   <meta name="theme-color" content="#200b3f">
   <meta name="application-name" content="Chii Arcade">
   <meta name="apple-mobile-web-app-title" content="Chii Arcade">
+  <meta name="description" content="Entdecke Kaskellia, Tintaloria und weitere kostenlose Android-Spiele von ChobitsChii.">
+  <title>Chii Arcade – kostenlose Android-Spiele</title>
   <link rel="icon" href="./favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
   <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
   <link rel="icon" type="image/svg+xml" href="./favicon.svg">
   <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
   <link rel="manifest" href="./site.webmanifest">
-  <style>
-    :root { font-family: system-ui, sans-serif; color-scheme: dark; }
-    body { max-width: 860px; margin: 0 auto; padding: 2rem 1.25rem; background: #141524; color: #f5f7ff; line-height: 1.6; }
-    h1 { font-size: clamp(2rem, 7vw, 3.3rem); margin: 0; }
-    .brand { display: flex; align-items: center; gap: clamp(.7rem, 2.5vw, 1.1rem); margin: 0 0 1rem; }
-    .brand-icon { width: clamp(64px, 14vw, 100px); height: auto; aspect-ratio: 1; object-fit: contain; flex-shrink: 0; border-radius: 20%; }
-    .brand span { line-height: 1.13; }
-    p { color: #c4cce1; }
-    .panel { padding: 1.25rem; background: #292d49; border: 1px solid #535774; border-radius: 20px; margin: 1.2rem 0; }
-    .grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(235px,1fr)); gap: 1rem; }
-    .game { background: #22263e; border-radius: 18px; padding: 1.25rem; border: 1px solid #40465e; }
-    .symbol { font-size: 2.8rem; }
-    .button { display: inline-block; border-radius: 12px; background: #abafff; color: #151638; font-weight: 700; text-decoration: none; padding: .75rem 1.2rem; }
-    a { color: #d4d4ff; }
-    .button:hover { background: #c6c9ff; }
-  </style>
+  <link rel="stylesheet" href="./storefront.css">
+  <script defer src="./storefront.js"></script>
 </head>
 <body>
-  <main>
-    <h1 class="brand"><img class="brand-icon" src="./assets/branding/chii-arcade-icon.webp" alt="" width="100" height="100" decoding="async"><span>Chii Arcade</span></h1>
-    <p>Ein kostenloser Android-Store für die Spiele von ChobitsChii. Ohne Registrierung, Werbung oder In-App-Käufe.</p>
+  <main class="site">
+    <header class="page-header">
+      <h1 class="brand">
+        <img class="brand-icon" src="./assets/branding/chii-arcade-icon.webp" alt="" width="100" height="100" decoding="async">
+        <span>Chii Arcade</span>
+      </h1>
+      <p>Ein kostenloser Android-Store für die Spiele von ChobitsChii. Ohne Registrierung, Werbung oder In-App-Käufe.</p>
+    </header>
 
-    <section class="panel" aria-labelledby="download-title">
+    <section class="panel download-panel" aria-labelledby="download-title">
+      <div class="section-eyebrow">Deine Spiele, ein Zuhause</div>
       <h2 id="download-title">Chii Arcade installieren</h2>
-      <p id="download-status" role="status">Die öffentliche Store-Version wird vorbereitet.</p>
+      <p id="download-status" role="status">Aktuelle Store-Version wird geladen …</p>
       <div id="download"></div>
-      <p>Android kann dich bitten, die Installation aus dieser Quelle zu erlauben. Bitte nur aus Quellen installieren, denen du vertraust.</p>
+      <p class="small-note">Android kann dich bitten, die Installation aus dieser Quelle zu erlauben. Bitte nur aus Quellen installieren, denen du vertraust.</p>
     </section>
 
-    <h2>Verfügbare Spiele</h2>
-    <section class="grid" id="games" aria-label="Installierbare Spiele">
-      <p>Spielekatalog wird geladen …</p>
+    <section aria-labelledby="games-title" class="games-section">
+      <div class="section-heading">
+        <div>
+          <div class="section-eyebrow">Kostenlos und werbefrei</div>
+          <h2 id="games-title">Entdecke die Spiele</h2>
+        </div>
+        <span class="section-caption">Echte Einblicke aus den Spielen</span>
+      </div>
+      <div class="game-grid" id="games" aria-live="polite">
+        <p>Spielekatalog wird geladen …</p>
+      </div>
     </section>
-    <p>Die App funktioniert mit gespeicherten Katalogdaten auch ohne Internet. Neue Installationen benötigen eine Verbindung.</p>
-    <p><a href="./catalog-v1.json">Öffentlichen Katalog anzeigen</a></p>
+
+    <footer class="site-footer">
+      <p>Die Android-App speichert den Spielekatalog auch offline. Neue Installationen und Updates benötigen eine Internetverbindung.</p>
+      <p><a href="./catalog-v1.json">Öffentlichen Katalog anzeigen</a></p>
+    </footer>
   </main>
-  <script>
-    async function getJSON(path) {
-      const response = await fetch(path, {cache: "no-cache"});
-      if (!response.ok) throw new Error("HTTP " + response.status);
-      return response.json();
-    }
-    async function showStore() {
-      const status = document.getElementById("download-status");
-      try {
-        const metadata = await getJSON("./store-release.json");
-        const release = metadata.release;
-        const expected = /^https:\/\/github\.com\/ChobitsChii\/chii-arcade-releases\/releases\/download\/store-v[\w.-]+\/chii-arcade-v[\w.-]+\.apk$/;
-        if (release && expected.test(release.apkUrl)) {
-          const anchor = document.createElement("a");
-          anchor.className = "button";
-          anchor.href = release.apkUrl;
-          anchor.textContent = "Chii Arcade " + release.versionName + " herunterladen";
-          document.getElementById("download").appendChild(anchor);
-          status.textContent = "Aktuelle Android-Version " + release.versionName + ".";
-        }
-      } catch (_) {
-        status.textContent = "Der Store-Download ist momentan nicht verfügbar.";
-      }
-    }
-    async function showGames() {
-      const node = document.getElementById("games");
-      try {
-        const catalog = await getJSON("./catalog-v1.json");
-        const games = catalog.games.filter(g => !g.preview && g.androidRelease);
-        node.replaceChildren();
-        for (const game of games) {
-          const card = document.createElement("article");
-          card.className = "game";
-          const icon = document.createElement("div");
-          icon.className = "symbol";
-          icon.textContent = game.symbol || "🎮";
-          const title = document.createElement("h3");
-          title.textContent = game.title;
-          const desc = document.createElement("p");
-          desc.textContent = game.teaser;
-          const version = document.createElement("p");
-          version.textContent = "Android-Version " + game.androidRelease.versionName;
-          card.append(icon, title, desc, version);
-          node.appendChild(card);
-        }
-        if (!games.length) node.textContent = "Noch keine Spiele veröffentlicht.";
-      } catch (_) {
-        node.textContent = "Der Spielekatalog konnte nicht geladen werden.";
-      }
-    }
-    showStore();
-    showGames();
-  </script>
+
+  <dialog id="screenshot-dialog" class="screenshot-dialog" aria-labelledby="gallery-title" aria-describedby="gallery-help">
+    <div class="viewer">
+      <div class="viewer-top">
+        <h2 id="gallery-title">Screenshots</h2>
+        <button type="button" id="gallery-close" class="viewer-close" aria-label="Galerie schließen" title="Schließen">×</button>
+      </div>
+      <div class="viewer-stage">
+        <button type="button" id="gallery-prev" class="viewer-arrow" aria-label="Vorheriger Screenshot" title="Vorheriger Screenshot">‹</button>
+        <img id="gallery-image" alt="" draggable="false">
+        <button type="button" id="gallery-next" class="viewer-arrow" aria-label="Nächster Screenshot" title="Nächster Screenshot">›</button>
+      </div>
+      <div class="viewer-bottom">
+        <span id="gallery-counter">1 / 1</span>
+        <span id="gallery-help">Wischen oder mit den Pfeiltasten blättern · Esc schließt</span>
+      </div>
+    </div>
+  </dialog>
 </body>
 </html>

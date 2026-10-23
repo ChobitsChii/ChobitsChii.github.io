@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T07:53:10.853262Z",
+  "generatedAt": "2026-10-23T10:55:01.670664Z",
   "catalogMode": "mixed",
   "games": [
     {
@@ -49,9 +49,11 @@
       },
       "coverImage": "https://chobitschii.github.io/chii-arcade/assets/tintaloria/cover-8aa52a636d62.webp",
       "screenshots": [
-        "https://chobitschii.github.io/chii-arcade/assets/tintaloria/screenshot-01-ee77006fcb6a.webp",
-        "https://chobitschii.github.io/chii-arcade/assets/tintaloria/screenshot-02-93204764746d.webp",
-        "https://chobitschii.github.io/chii-arcade/assets/tintaloria/screenshot-03-e0cb144cfabb.webp"
+        "https://chobitschii.github.io/chii-arcade/assets/tintaloria/screenshot-01-8dec3ebf5532.webp",
+        "https://chobitschii.github.io/chii-arcade/assets/tintaloria/screenshot-02-536b927d160a.webp",
+        "https://chobitschii.github.io/chii-arcade/assets/tintaloria/screenshot-03-0f9e54c744de.webp",
+        "https://chobitschii.github.io/chii-arcade/assets/tintaloria/screenshot-04-b98d6ea60699.webp",
+        "https://chobitschii.github.io/chii-arcade/assets/tintaloria/screenshot-05-a34fb768e6da.webp"
       ]
     },
     {

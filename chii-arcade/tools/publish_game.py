@@ -193,6 +193,11 @@ def main() -> int:
         "symbol": config["symbol"], "preview": False, "androidRelease": release_data
     }
     if old:
+        # Media belongs to the game's public catalog entry, not APK release data.
+        # Keep its immutable URLs when publishing a new Android version.
+        for media_key in ("coverImage", "screenshots"):
+            if media_key in old:
+                game[media_key] = old[media_key]
         catalog["games"][catalog["games"].index(old)] = game
     else:
         catalog["games"].append(game)

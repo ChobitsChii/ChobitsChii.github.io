@@ -76,3 +76,38 @@ Wenn du als KI ein Spiel für Chii Arcade veröffentlichst:
 Keine Nutzerkonten, keine Werbung, keine Analytics. APK-Installationen erfolgen ausschließlich über die Android-Systemoberfläche. Die Installation unbekannter APK-Quellen muss der Nutzer selbst erlauben. Android kann weitere Prüfungen durch Play Protect vornehmen.
 
 Die öffentliche GitHub-Release-Ablage ist aktuell `ChobitsChii/games`. Langfristig empfiehlt sich ein gesondertes öffentliches `chii-arcade-releases`-Repository. Vor Umstellung muss die Android-App den neuen Download-Host bzw. Repositorypfad ausdrücklich zulassen.
+
+
+## Cover und Screenshots separat veröffentlichen (ohne APK-Update)
+
+Ab Medien-Erweiterung M04 sind im öffentlichen Katalog zwei **optionale** Felder vorgesehen:
+`coverImage` (ein absolutes, vertrauenswürdiges WebP-URL) und `screenshots` (0–8 absolute WebP-URLs). Die Android-App lädt diese auf Abruf in ihren Offline-Bildcache, zeigt 16:9-Cover auf der Übersichts- und Detailseite und ermöglicht eine Vollbild-Galerie mit Wisch- und Pfeilnavigation. Fehlende Bilder sind kein Fehler; vorhandene Platzhalter bleiben.
+
+**Private Spielprojekt-Konfiguration**: Damit das öffentliche Script Bilder ohne Ratespiel publizieren kann, stehen in der jeweiligen `chii-arcade.json` stattdessen **relative lokale WebP-Dateipfade**, z. B.:
+
+```json
+{
+  "id": "kaskellia",
+  "coverImage": "store-media/cover.webp",
+  "screenshots": [
+    "store-media/01-weltkarte.webp",
+    "store-media/02-spielfeld.webp",
+    "store-media/03-powerups.webp"
+  ]
+}
+```
+
+Andere bereits vorhandene Konfigurationsfelder (Titel, Android-Signatur usw.) **beibehalten**, hier nur die neuen Felder ergänzen. Cover: **16:9**, bevorzugt 1280×720 WebP; Screenshots: **echte, unbearbeitete Spielsituationen im Original-Seitenverhältnis** (Hochformat und Querformat erlaubt). Nur UI-freie Promoillustrationen als Cover nutzen; Screenshots nicht per KI erfinden oder verfälschen. Maximal 8 Screenshots, jedes WebP maximal 4 MB und zusammen maximal 22 MB. Dateinamen sollten keine Sonderzeichen oder Leerzeichen enthalten.
+
+**Medien-Dry-Run:** aus dem Spielprojekt:
+
+```bash
+python3 /pfad/zu/ChobitsChii.github.io/chii-arcade/tools/publish_media.py --config chii-arcade.json --dry-run
+```
+
+**Nur nach ausdrücklicher Freigabe** ohne `--dry-run` ausführen. Das Programm benötigt `gh auth login` mit Schreibzugriff auf `ChobitsChii/ChobitsChii.github.io`. Es überprüft Dateien und Pfade, lädt die WebP-Dateien zuerst nach `chii-arcade/assets/<game-id>/` hoch (mit SHA-256-Hash im Dateinamen) und trägt danach die **absoluten** Cover-/Screenshot-URLs in `chii-arcade/catalog-v1.json` ein. Ein bestehendes, öffentlich spielbares Spiel muss bereits im Katalog vorhanden sein. **Keine APK wird gebaut oder hochgeladen, der Versionscode bleibt unverändert.** Alte veröffentlichte URLs bleiben für Caches stabil; neue Medienbytes erhalten einen neuen Dateinamen.
+
+**Wichtig für spätere APK-Releases:** Der aktuelle `tools/publish_game.py` bewahrt `coverImage` und `screenshots` bestehender Katalogeinträge bei einem Spielupdate. Alle privaten Kopien des Publishers (z. B. Kaskellia und Tintaloria) sollten dieselbe Änderung erhalten, **bevor** sie ein zukünftiges APK-Update veröffentlichen, sonst überschreiben ältere Kopien die Medienfelder wieder. Für die Bildbereitstellung reicht `publish_media.py`, das vor einer Veröffentlichung jeweils vom öffentlichen Repository bezogen werden kann.
+
+Bei Problemen niemals private Bilder unbeabsichtigt hochladen, den Katalog blind editieren, unveröffentlichte Spiele eintragen oder ein neues APK-Release erzwingen. App-Version vorerst aktualisieren, bevor Screenshots veröffentlicht werden: ältere Store-Versionen ignorieren die neuen optionalen Felder.
+

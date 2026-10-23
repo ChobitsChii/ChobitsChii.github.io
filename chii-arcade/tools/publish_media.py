@@ -132,7 +132,7 @@ def main() -> int:
             # GitHub Contents API may omit 'content' for files >1 MiB;
             # compare git-blob SHA1 instead (covers every byte of the payload).
             blob_sha = hashlib.sha1(
-                f"blob {len(data)}\\0".encode("ascii") + data
+                f"blob {len(data)}".encode("ascii") + bytes([0]) + data
             ).hexdigest()
             if existing.get("sha") != blob_sha:
                 raise RuntimeError(f"Bild unter Hashnamen hat andere Daten: {target}")

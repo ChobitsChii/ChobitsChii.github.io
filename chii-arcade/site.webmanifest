@@ -1,0 +1,30 @@
+{
+  "name": "Chii Arcade – kostenlose Android-Spiele",
+  "short_name": "Chii Arcade",
+  "description": "Entdecke und installiere die Android-Spiele von ChobitsChii.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#141524",
+  "theme_color": "#200b3f",
+  "icons": [
+    {
+      "src": "./android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./android-chrome-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

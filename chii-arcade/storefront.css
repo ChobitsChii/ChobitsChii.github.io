@@ -5,6 +5,7 @@ body{margin:0;min-height:100vh;color:var(--ink);background:radial-gradient(ellip
 button,a{-webkit-tap-highlight-color:transparent}
 button{font:inherit;cursor:pointer}
 a{color:#d8d4ff}
+img[hidden]{display:none!important}
 button:focus-visible,a:focus-visible{outline:3px solid #f4d8ff;outline-offset:3px}
 .site{max-width:1100px;margin:0 auto;padding:clamp(20px,5vw,54px) clamp(16px,4vw,32px) 60px}
 .page-header{max-width:750px;margin-bottom:28px}
@@ -55,7 +56,7 @@ button.game-cover:hover img{transform:scale(1.025)}
 .viewer-top{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-shrink:0}
 .viewer-top h2{font-size:clamp(1rem,3vw,1.4rem);margin:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .viewer-close,.viewer-arrow{border:1px solid #ffffff40;color:white;background:#20203ac9;border-radius:50%;display:grid;place-items:center;flex-shrink:0}
-.viewer-close{width:42px;height:42px;font-size:30px;line-height:1}
+.viewer-close{width:42px;height:42px;font-size:30px;line-height:1;position:fixed;right:max(16px,env(safe-area-inset-right,0px));top:calc(env(safe-area-inset-top,0px) + 12px);z-index:5;backdrop-filter:blur(8px)}
 .viewer-arrow{width:44px;height:48px;font-size:36px;line-height:1;z-index:1}
 .viewer-arrow:disabled{opacity:.22;cursor:default}
 .viewer-stage{flex:1;min-height:0;display:flex;align-items:center;justify-content:center;gap:8px;touch-action:pan-y}

@@ -56,3 +56,29 @@ test("HTML references stylesheet, script, download endpoint and accessible viewe
     } else assert.ok(html.includes(required), required);
   }
 });
+
+test("footer exposes readable, directly reachable imprint and privacy pages", () => {
+  const root = path.join(__dirname, "..");
+  const storefront = fs.readFileSync(path.join(root, "index.html"), "utf8");
+  assert.match(storefront, /<nav class="footer-nav" aria-label="Rechtliche Informationen">/);
+  assert.match(storefront, /href="\.\/impressum\.html"/);
+  assert.match(storefront, /href="\.\/datenschutz\.html"/);
+
+  for (const [file, ownTitle, companion] of [
+    ["impressum.html", "Impressum", "datenschutz.html"],
+    ["datenschutz.html", "Datenschutz", "impressum.html"],
+  ]) {
+    const html = fs.readFileSync(path.join(root, file), "utf8");
+    assert.ok(html.includes("<title>" + ownTitle + " – Chii Arcade</title>"), file);
+    for (const required of [
+      'href="./storefront.css"', 'chii-arcade-icon.webp',
+      'href="./"', 'href="./' + companion + '"',
+      "Jennifer Graßl", "webmaster@jgserver.de"
+    ]) assert.ok(html.includes(required), file + ": " + required);
+  }
+  const privacy = fs.readFileSync(path.join(root, "datenschutz.html"), "utf8");
+  for (const requirement of [
+    "GitHub Pages", "Android-App", "Offline", "APK", "WhatsApp",
+    "DSGVO", "Datenschutzrechte", "GitHub"
+  ]) assert.ok(privacy.includes(requirement), requirement);
+});

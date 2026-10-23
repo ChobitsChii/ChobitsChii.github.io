@@ -66,3 +66,16 @@ button.game-cover:hover img{transform:scale(1.025)}
 body.gallery-open{overflow:hidden}
 @media(max-width:560px){.section-heading{display:block}.section-caption{display:block;text-align:left;margin-top:4px}.viewer-stage{position:relative}.viewer-arrow{position:absolute;bottom:12px;background:#13132fe8}.viewer-arrow:first-child{left:4px}.viewer-arrow:last-child{right:4px}.viewer-stage img{width:100%}.viewer-bottom{justify-content:center;text-align:center}.game-content{padding:16px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
+
+/* Branded legal pages and consistently visible footer navigation. */
+.footer-nav{display:flex;align-items:center;flex-wrap:wrap;gap:12px 22px;margin:10px 0}
+.footer-nav a{font-weight:650;text-decoration:underline;text-underline-offset:3px}
+.legal-site{max-width:900px}
+.brand-link{color:var(--ink);text-decoration:none;width:fit-content}
+.brand-link:hover{color:var(--accent)}
+.legal-panel h1{font-size:clamp(2rem,5vw,2.7rem);margin:.3rem 0 .5rem}
+.legal-panel h2{font-size:1.17rem;color:#e6d7ff;margin:1.6rem 0 .5rem}
+.legal-panel p{margin:.65rem 0}
+.legal-panel address{font-style:normal;line-height:1.75;color:var(--ink)}
+.legal-panel a{text-decoration:underline;text-underline-offset:3px}
+.legal-panel p,.legal-panel address{overflow-wrap:anywhere}

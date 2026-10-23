@@ -4,6 +4,8 @@ on:
   pull_request:
     paths:
       - 'chii-arcade/index.html'
+      - 'chii-arcade/impressum.html'
+      - 'chii-arcade/datenschutz.html'
       - 'chii-arcade/storefront.js'
       - 'chii-arcade/storefront.css'
       - 'chii-arcade/tools/test_storefront.cjs'
@@ -12,6 +14,8 @@ on:
     branches: [main]
     paths:
       - 'chii-arcade/index.html'
+      - 'chii-arcade/impressum.html'
+      - 'chii-arcade/datenschutz.html'
       - 'chii-arcade/storefront.js'
       - 'chii-arcade/storefront.css'
       - 'chii-arcade/tools/test_storefront.cjs'

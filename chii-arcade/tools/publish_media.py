@@ -68,6 +68,8 @@ def image_file(base: Path, relative: object) -> tuple[bytes, str]:
         r"[A-Za-z0-9_.-]+(?:/[A-Za-z0-9_.-]+)*\.webp", relative
     ):
         raise ValueError("Bildpfad muss relativ und eine .webp-Datei sein")
+    if "." in Path(relative).parts or ".." in Path(relative).parts:
+        raise ValueError("Bildpfad enthält unerlaubte Pfadkomponenten")
     path = (base / relative).resolve()
     if not path.is_relative_to(base.resolve()) or not path.is_file():
         raise ValueError(f"Bild fehlt oder liegt außerhalb des Projektordners: {relative}")

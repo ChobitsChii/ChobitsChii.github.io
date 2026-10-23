@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T05:30:26.495500Z",
+  "generatedAt": "2026-10-23T05:46:46.100732Z",
   "catalogMode": "mixed",
   "games": [
     {
@@ -46,6 +46,24 @@
         "sizeBytes": 54924188,
         "sha256": "29948eb626f4a7509b7b76fc46d69d254c995595294021f7bb42a5dbbc88434d",
         "signingCertificateSha256": "1d36ce3ed5867bb9b680e5650099ab3a26f0d91ee8d98b823c022bdea5446556"
+      }
+    },
+    {
+      "id": "diorama",
+      "title": "Diorama Sandbox",
+      "category": "Kreativ",
+      "teaser": "Gemütliches 3D-Diorama-Bauspiel im Low-Poly-Voxelstil.",
+      "description": "Erschaffe deine eigene Miniatur-Inselwelt mit 38 verschiedenen Objekten, dynamischen Rastergrößen von 8×8 bis 24×24, Tag- & Nacht-Atmosphäre und interaktivem Erkunden-Modus. Gestalte Böden, Gebäude, Natur, Tiere und Dekorationen mit vollem Undo/Redo und lokaler Speicherung für Touch und Tastatur.",
+      "symbol": "🏝️",
+      "preview": false,
+      "androidRelease": {
+        "packageName": "de.chobitschii.diorama",
+        "versionName": "0.1.0-beta.12",
+        "versionCode": 12,
+        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/diorama-v0.1.0-beta.12/diorama-0.1.0-beta.12.apk",
+        "sizeBytes": 76562252,
+        "sha256": "0851814288d14ef9369efbc701290af5281f4cf9008475b7a8044ee6b6241c6e",
+        "signingCertificateSha256": "a36a3326986f9c6da099df5f9ea9ad914f48aae26a5a9dd47684c5e25b1e428f"
       }
     }
   ]

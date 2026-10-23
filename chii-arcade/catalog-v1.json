@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T11:46:07.312890Z",
+  "generatedAt": "2026-10-23T12:17:51.577944Z",
   "catalogMode": "mixed",
   "games": [
     {
@@ -35,16 +35,16 @@
       "title": "Tintaloria – Dein Königreich der Farben",
       "category": "Malen nach Zahlen",
       "teaser": "Neue Farbwelt zum Starten – drei Motive zum entspannten Ausmalen.",
-      "description": "Tintaloria – Dein Königreich der Farben ist eine frühe Testversion (M03-UI-A) eines entspannten Malen-nach-Zahlen-Spiels. Ein eigenes Regenbogenschmetterlings-Icon und eine magische Blumenwelt begrüßen dich auf dem neuen Startbildschirm. Berühren, klicken oder eine Taste drücken startet die Galerie. Drei eigene Motive warten auf Farbe: Blumenkätzchen mit 32 Feldern und sieben Farben, Regenbogeneinhorn mit 42 Feldern und sieben Farben sowie Schmetterling mit 38 Feldern und sechs Farben. Galerie und Meine Bilder zeigen deinen tatsächlichen Farbfortschritt; Favoriten sind unabhängig vom Bearbeitungsstand. Wähle eine Farbe, zoome mit zwei Fingern und verschiebe das Bild. Passende offene Felder werden auf Wunsch grau markiert, fertige Farben lassen sich ausblenden. Fortschritt und Einstellungen werden lokal gespeichert. Alle enthaltenen Motive sind vollständig offline spielbar, kostenlos und werbefrei, ohne Käufe oder Konto. Eine technische Vier-Flächen-Probe liegt getrennt unter Testmotive. Weitere Bilder, Zusatzdownloads, automatische Hilfe und Zeitraffer sind noch in Entwicklung. Unter Linux und im Android-Emulator geprüft; Saras persönliche Spielprobe des neuen M03-UI-A-Starts sowie verbindliche Leistungsbudgets auf echten Smartphones stehen noch aus.",
+      "description": "Tintaloria – Dein Königreich der Farben ist eine frühe Testversion (M03-UI-B) eines entspannten Malen-nach-Zahlen-Spiels. Ein eigenes Regenbogenschmetterlings-Icon und eine magische Blumenwelt begrüßen dich. Der Starttitel steht direkt auf der Illustration; Galerie, Meine Bilder und Einstellungen erhalten einen dezenten Blumenhintergrund. Berühren, klicken oder eine Taste drücken startet die Galerie. Drei eigene Motive warten auf Farbe: Blumenkätzchen mit 32 Feldern und sieben Farben, Regenbogeneinhorn mit 42 Feldern und sieben Farben sowie Schmetterling mit 38 Feldern und sechs Farben. Galerie und Meine Bilder zeigen deinen tatsächlichen Farbfortschritt; Favoriten sind unabhängig vom Bearbeitungsstand. Wähle eine Farbe, zoome mit zwei Fingern und verschiebe das Bild. Passende offene Felder werden auf Wunsch grau markiert, fertige Farben lassen sich ausblenden. Fortschritt und Einstellungen werden lokal gespeichert. Alle enthaltenen Motive sind vollständig offline spielbar, kostenlos und werbefrei, ohne Käufe oder Konto. Eine technische Vier-Flächen-Probe liegt getrennt unter Testmotive. Weitere Bilder, Zusatzdownloads, automatische Hilfe und Zeitraffer sind noch in Entwicklung. Unter Linux und im Android-Emulator geprüft; Saras persönliche Spielprobe des M03-UI-B-Oberfläche sowie verbindliche Leistungsbudgets auf echten Smartphones stehen noch aus.",
       "symbol": "🎨",
       "preview": false,
       "androidRelease": {
         "packageName": "de.chobitschii.tintaloria",
-        "versionName": "0.3.1-ui",
-        "versionCode": 5,
-        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/tintaloria-v0.3.1-ui/tintaloria-0.3.1-ui-code5.apk",
+        "versionName": "0.3.2-ui",
+        "versionCode": 6,
+        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/tintaloria-v0.3.2-ui/tintaloria-0.3.2-ui-code6.apk",
         "sizeBytes": 66350779,
-        "sha256": "f10943d76ae27fdf8991fba50fc03b1e93c021191cb784bda15e0d2269a615f7",
+        "sha256": "49cc77f876e59b93d4a415d2fe0edd18c890e08d21da2dad5bd9fe73b1ae4b59",
         "signingCertificateSha256": "1d36ce3ed5867bb9b680e5650099ab3a26f0d91ee8d98b823c022bdea5446556"
       },
       "coverImage": "https://chobitschii.github.io/chii-arcade/assets/tintaloria/cover-8aa52a636d62.webp",

@@ -1,0 +1,32 @@
+name: Chii Arcade storefront media check
+
+on:
+  pull_request:
+    paths:
+      - 'chii-arcade/index.html'
+      - 'chii-arcade/storefront.js'
+      - 'chii-arcade/storefront.css'
+      - 'chii-arcade/tools/test_storefront.cjs'
+      - '.github/workflows/check-arcade-storefront.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'chii-arcade/index.html'
+      - 'chii-arcade/storefront.js'
+      - 'chii-arcade/storefront.css'
+      - 'chii-arcade/tools/test_storefront.cjs'
+      - '.github/workflows/check-arcade-storefront.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout website
+        uses: actions/checkout@v4
+      - name: Validate JavaScript syntax
+        run: node --check chii-arcade/storefront.js
+      - name: Test public game images, gallery metadata and page wiring
+        run: node --test chii-arcade/tools/test_storefront.cjs

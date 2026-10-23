@@ -166,13 +166,19 @@
 		/* Grid & Cards */
 		.projects-grid {
 			display: grid;
-			grid-template-columns: repeat(2, 1fr);
+			grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 			gap: 2rem;
-			max-width: 1050px;
+			max-width: 1200px;
 			margin: 0 auto;
 		}
 
-		@media (max-width: 820px) {
+		@media (min-width: 1040px) {
+			.projects-grid {
+				grid-template-columns: repeat(3, 1fr);
+			}
+		}
+
+		@media (max-width: 720px) {
 			.projects-grid {
 				grid-template-columns: 1fr;
 			}
@@ -206,6 +212,11 @@
 		.project-card[data-theme="diorama"]:hover {
 			border-color: rgba(56, 189, 248, 0.4);
 			box-shadow: 0 24px 48px -18px rgba(56, 189, 248, 0.25);
+		}
+
+		.project-card[data-theme="arcade"]:hover {
+			border-color: rgba(244, 63, 94, 0.45);
+			box-shadow: 0 24px 48px -18px rgba(244, 63, 94, 0.3);
 		}
 
 		.project-card[data-theme="modulnest"]:hover {
@@ -389,6 +400,7 @@
 
 		.project-card[data-theme="games"] .feature-list li svg { color: var(--accent-blue); }
 		.project-card[data-theme="diorama"] .feature-list li svg { color: var(--accent-blue); }
+		.project-card[data-theme="arcade"] .feature-list li svg { color: #f43f5e; }
 		.project-card[data-theme="modulnest"] .feature-list li svg { color: var(--accent-purple); }
 		.project-card[data-theme="modules"] .feature-list li svg { color: var(--accent-purple); }
 
@@ -504,6 +516,16 @@
 			transform: scale(1.02);
 		}
 
+		.project-card[data-theme="arcade"] .btn-primary {
+			background: linear-gradient(135deg, #e11d48, #be123c);
+			box-shadow: 0 4px 14px rgba(225, 29, 72, 0.35);
+		}
+		.project-card[data-theme="arcade"] .btn-primary:hover {
+			background: linear-gradient(135deg, #f43f5e, #e11d48);
+			box-shadow: 0 6px 20px rgba(244, 63, 94, 0.5);
+			transform: scale(1.02);
+		}
+
 		.project-card[data-theme="modulnest"] .btn-primary {
 			background: linear-gradient(135deg, #9333ea, #7e22ce);
 			box-shadow: 0 4px 14px rgba(147, 51, 234, 0.35);
@@ -575,7 +597,7 @@
 	<main class="container">
 		<div class="section-intro">
 			<h2>Ausgewählte Public Repositories</h2>
-			<span class="counter">4 Projekte</span>
+			<span class="counter">5 Projekte</span>
 		</div>
 
 		<div class="projects-grid">
@@ -685,7 +707,60 @@
 				</div>
 			</article>
 
-			<!-- 3 & 4. ModulNest Ecosystem (ModulNest + ModulNest-Modules) -->
+			<!-- 3. Chii Arcade Android Store -->
+			<article class="project-card" data-theme="arcade">
+				<div class="card-header">
+					<div class="icon-box">
+						<img src="assets/img/chii-arcade-icon.webp" alt="Chii Arcade Icon">
+					</div>
+					<div class="card-title-wrap">
+						<h3>📱 Chii Arcade</h3>
+						<div class="tag-row">
+							<span class="tag tag-lang">Android</span>
+							<span class="tag tag-lang">Kotlin</span>
+							<span class="tag tag-ver">v1.0.7</span>
+							<span class="tag tag-cat">Game Store</span>
+						</div>
+					</div>
+				</div>
+				<div class="card-body">
+					<div class="card-desc-wrap">
+						<p class="card-desc">
+							Kostenlose Android-App und eigener App-Store für alle mobilen Spiele von ChobitsChii. Spiele direkt entdecken, installieren, aktualisieren, starten und Screenshots anschauen – werbefrei und ohne Konto.
+						</p>
+					</div>
+					<ul class="feature-list">
+						<li>
+							<svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+							Zentrale Anlaufstelle für alle Android-Spiele (z. B. Kaskellia, Tintaloria)
+						</li>
+						<li>
+							<svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+							Integrierte Screenshot-Galerie & Offline-fähiger Katalog
+						</li>
+						<li>
+							<svg viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+							Spiele bequem aktualisieren, starten & verwalten
+						</li>
+					</ul>
+				</div>
+				<div class="card-footer card-footer-2row">
+					<a href="https://chobitschii.github.io/chii-arcade/" class="btn btn-primary btn-play" title="Chii Arcade Website öffnen">
+						<span class="btn-play-icon">🌐</span> Website öffnen
+					</a>
+					<div class="btn-sub-row">
+						<a href="https://github.com/ChobitsChii/chii-arcade-releases/releases/latest" target="_blank" rel="noopener" class="btn btn-download" title="Android APK herunterladen">
+							📦 APK Download
+						</a>
+						<a href="https://github.com/ChobitsChii/chii-arcade-releases" target="_blank" rel="noopener" class="btn btn-secondary btn-github-sub" title="GitHub Repository">
+							<svg height="15" width="15" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+							GitHub
+						</a>
+					</div>
+				</div>
+			</article>
+
+			<!-- 4 & 5. ModulNest Ecosystem (ModulNest + ModulNest-Modules) -->
 			<div class="eco-wrapper">
 				<div class="eco-header">
 					<div class="eco-title">
@@ -798,6 +873,8 @@
 			<a href="https://github.com/ChobitsChii" target="_blank" rel="noopener">GitHub Profil</a>
 			<span>•</span>
 			<a href="https://chobitschii.github.io/games/">Games Portal</a>
+			<span>•</span>
+			<a href="https://chobitschii.github.io/chii-arcade/">Chii Arcade</a>
 			<span>•</span>
 			<a href="https://github.com/ChobitsChii/ModulNest" target="_blank" rel="noopener">ModulNest</a>
 			<span>•</span>

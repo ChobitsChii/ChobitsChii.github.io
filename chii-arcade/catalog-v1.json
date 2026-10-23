@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-22T19:16:12.514462Z",
+  "generatedAt": "2026-10-23T01:09:14.414424Z",
   "catalogMode": "mixed",
   "games": [
     {
@@ -19,7 +19,16 @@
         "sizeBytes": 57528130,
         "sha256": "5584c030f256a9ca670525c06cb8b590c36cae373b90b8257b5bec17e790f346",
         "signingCertificateSha256": "f180a9c294153bdc6fb700794bf980736ff1785331058beb933e474b8c8fcb5c"
-      }
+      },
+      "coverImage": "https://chobitschii.github.io/chii-arcade/assets/kaskellia/cover-e9ced9459ef7.webp",
+      "screenshots": [
+        "https://chobitschii.github.io/chii-arcade/assets/kaskellia/screenshot-01-ac671da7c467.webp",
+        "https://chobitschii.github.io/chii-arcade/assets/kaskellia/screenshot-02-a4cc9e1a240e.webp",
+        "https://chobitschii.github.io/chii-arcade/assets/kaskellia/screenshot-03-090a72b35735.webp",
+        "https://chobitschii.github.io/chii-arcade/assets/kaskellia/screenshot-04-26cd449d53a5.webp",
+        "https://chobitschii.github.io/chii-arcade/assets/kaskellia/screenshot-05-7822cb4d3170.webp",
+        "https://chobitschii.github.io/chii-arcade/assets/kaskellia/screenshot-06-790b753d4770.webp"
+      ]
     },
     {
       "id": "tintaloria",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T19:18:02.184023Z",
+  "generatedAt": "2026-10-23T19:37:10.294167Z",
   "catalogMode": "mixed",
   "games": [
     {
@@ -35,16 +35,16 @@
       "title": "Tintaloria – Dein Königreich der Farben",
       "category": "Malen nach Zahlen",
       "teaser": "Neu: Hüterin des Mondgartens – beim Ausmalen erscheinen die Originaldetails.",
-      "description": "Tintaloria – Dein Königreich der Farben ist eine frühe kostenlose und werbefreie Testversion. Neu ist die Hüterin des Mondgartens: ein detailreiches Anime-/Fantasy-Testmotiv mit 223 Regionen und 23 Farbgruppen. Richtig ausgemalte Felder zeigen die echten Originalfarben mit Schattierungen, Augen- und Schmuckdetails; offene Felder bleiben weiß mit Konturen und Nummern. Zusätzlich enthalten: Blumenkätzchen (32 Felder), Regenbogeneinhorn (42) und Schmetterling (38). Galerie und Meine Bilder zeigen den tatsächlichen Fortschritt; Favoriten sind unabhängig. Zoomen, Verschieben, graue Hervorhebung passender Felder und optionales Ausblenden fertiger Farben erleichtern das Malen. Hilfen finden offene Felder der aktiven Farbe; optional unbegrenzt. Gespeicherte Aktionen lassen sich als Zeitraffer ansehen. Fertige Bilder können erneut ausgemalt werden; alte Abschlüsse und vorhandene Zeitraffer bleiben erhalten. Fortschritt, Hilfen und Einstellungen werden lokal gespeichert. Alle enthaltenen Motive sind offline spielbar, ohne Käufe oder Konto. Deutsch und Englisch, wahlweise System- oder manuelle Sprache. Die technische Vier-Flächen-Probe liegt unter Testmotive. Der Mondgarten ist ausdrücklich ein früher Smartphone-Test, keine abschließend freigegebene Bildqualität. Weitere Bilder und Bilddownloads sind noch in Entwicklung; Videoexport und Undo sind nicht enthalten.",
+      "description": "Tintaloria – Dein Königreich der Farben ist eine frühe kostenlose und werbefreie Testversion. Neu ist die Hüterin des Mondgartens: ein detailreiches Anime-/Fantasy-Testmotiv mit 223 Regionen und 23 Farbgruppen. Richtig ausgemalte Felder zeigen die echten Originalfarben mit Schattierungen, Augen- und Schmuckdetails; offene Felder bleiben weiß mit Konturen und Nummern. Zusätzlich enthalten: Blumenkätzchen (32 Felder), Regenbogeneinhorn (42) und Schmetterling (38). Galerie und Meine Bilder zeigen den tatsächlichen Fortschritt; Favoriten sind unabhängig. Zoomen, Verschieben, graue Hervorhebung passender Felder und optionales Ausblenden fertiger Farben erleichtern das Malen. Hilfen finden offene Felder der aktiven Farbe; optional unbegrenzt. Gespeicherte Aktionen lassen sich als Zeitraffer ansehen. Fertige Bilder können erneut ausgemalt werden; alte Abschlüsse und vorhandene Zeitraffer bleiben erhalten. Fortschritt, Hilfen und Einstellungen werden lokal gespeichert. Alle enthaltenen Motive sind offline spielbar, ohne Käufe oder Konto. Deutsch und Englisch, wahlweise System- oder manuelle Sprache. Die technische Vier-Flächen-Probe liegt unter Testmotive. Der Mondgarten ist ausdrücklich ein früher Smartphone-Test, keine abschließend freigegebene Bildqualität. Weitere Bilder und Bilddownloads sind noch in Entwicklung; Videoexport und Undo sind nicht enthalten. Der feste Hinweisbereich verhindert ein Springen der Malfläche bei falschen Farbtipps und wechselnden Meldungen.",
       "symbol": "🎨",
       "preview": false,
       "androidRelease": {
         "packageName": "de.chobitschii.tintaloria",
-        "versionName": "0.6.2-pilot",
-        "versionCode": 11,
-        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/tintaloria-v0.6.2-pilot/tintaloria-0.6.2-pilot-code11.apk",
+        "versionName": "0.6.3-hotfix",
+        "versionCode": 12,
+        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/tintaloria-v0.6.3-hotfix/tintaloria-0.6.3-hotfix-code12-final.apk",
         "sizeBytes": 72631649,
-        "sha256": "4afe4718dce6f64aaf3e04c1b1dd139c1c7f3c935f4aad81bff04cb01dcbb702",
+        "sha256": "f98986109a81a19aaca17ce4c2e2eab331bb260fa347790f27109d4dd9ffb88e",
         "signingCertificateSha256": "1d36ce3ed5867bb9b680e5650099ab3a26f0d91ee8d98b823c022bdea5446556"
       },
       "coverImage": "https://chobitschii.github.io/chii-arcade/assets/tintaloria/cover-8aa52a636d62.webp",

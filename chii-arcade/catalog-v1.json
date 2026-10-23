@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T05:46:46.100732Z",
+  "generatedAt": "2026-10-23T06:16:24.548599Z",
   "catalogMode": "mixed",
   "games": [
     {
@@ -46,7 +46,13 @@
         "sizeBytes": 54924188,
         "sha256": "29948eb626f4a7509b7b76fc46d69d254c995595294021f7bb42a5dbbc88434d",
         "signingCertificateSha256": "1d36ce3ed5867bb9b680e5650099ab3a26f0d91ee8d98b823c022bdea5446556"
-      }
+      },
+      "coverImage": "https://chobitschii.github.io/chii-arcade/assets/tintaloria/cover-8aa52a636d62.webp",
+      "screenshots": [
+        "https://chobitschii.github.io/chii-arcade/assets/tintaloria/screenshot-01-ee77006fcb6a.webp",
+        "https://chobitschii.github.io/chii-arcade/assets/tintaloria/screenshot-02-93204764746d.webp",
+        "https://chobitschii.github.io/chii-arcade/assets/tintaloria/screenshot-03-e0cb144cfabb.webp"
+      ]
     },
     {
       "id": "diorama",

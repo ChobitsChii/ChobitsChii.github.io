@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-24T05:07:23.001596Z",
+  "generatedAt": "2026-10-24T05:47:27.905775Z",
   "catalogMode": "mixed",
   "games": [
     {
@@ -34,17 +34,17 @@
       "id": "tintaloria",
       "title": "Tintaloria – Dein Königreich der Farben",
       "category": "Malen nach Zahlen",
-      "teaser": "Einheitliche Dreiecke für den Fokusmodus – entspannt mit mehr Platz malen.",
-      "description": "Tintaloria – Dein Königreich der Farben ist eine frühe kostenlose und werbefreie Malen-nach-Zahlen-Testversion. Vier eigene Motive sind vollständig mitgeliefert: Blumenkätzchen, Regenbogeneinhorn, Schmetterling im Blütentraum und Hüterin des Mondgartens. Neu in M04-A: Der Uhrwerk-Schmetterlingsgarten mit 182 Regionen und 24 Farbgruppen lässt sich freiwillig direkt aus der Galerie herunterladen. Nach vollständiger Prüfung ist das Bild offline spielbar. Beim Ausmalen erscheinen seine echten Originalpixel mit Schattierungen, Blüten- und Uhrwerkdetails. Downloadfortschritt, Abbruch und Wiederholen sind vorhanden. Favoriten bleiben unabhängig vom Download und Bearbeitungsstand. Galerie und Meine Bilder zeigen den echten Fortschritt. Zoom, Verschieben, graue Markierung offener Felder und optional verborgene fertige Farben unterstützen das Malen. Der Fokusmodus lässt Bild, Palette und einen einheitlichen Dreieck-Umschalter sichtbar. Hilfen finden offene Felder; optional unbegrenzt. Gespeicherte Aktionen können als Zeitraffer angesehen werden, fertige Bilder erneut ausgemalt werden, während frühere Ergebnisse und verfügbare Zeitraffer erhalten bleiben. Spielstände, Favoriten und Einstellungen bleiben lokal, ohne Konto, Käufe oder Werbung. Deutsch und Englisch. Eine technische Vier-Flächen-Probe liegt getrennt unter Testmotive. Genau ein erstes Zusatzpaket, weitere Inhalte und Downloadkomfort sind noch in Entwicklung. Kein Videoexport oder Undo. Android-Emulator und Linux geprüft; Saras neue persönliche Smartphoneprobe steht noch aus.",
+      "teaser": "Neue Themen- und Schwierigkeitsfilter, passende Herzen und sichere DLC-Vorschauen.",
+      "description": "Tintaloria – Dein Königreich der Farben ist eine frühe kostenlose und werbefreie Malen-nach-Zahlen-Testversion. Vier eigene Motive sind vollständig mitgeliefert: Blumenkätzchen, Regenbogeneinhorn, Schmetterling im Blütentraum und Hüterin des Mondgartens. Neu in M04-A: Der Uhrwerk-Schmetterlingsgarten mit 182 Regionen und 24 Farbgruppen lässt sich freiwillig direkt aus der Galerie herunterladen. Nach vollständiger Prüfung ist das Bild offline spielbar. Beim Ausmalen erscheinen seine echten Originalpixel mit Schattierungen, Blüten- und Uhrwerkdetails. Downloadfortschritt, Abbruch und Wiederholen sind vorhanden. Favoriten bleiben unabhängig vom Download und Bearbeitungsstand. Galerie und Meine Bilder zeigen den echten Fortschritt. Themen, Schwierigkeit und Offlinefilter lassen sich kombinieren. Neue Zusatzbilder zeigen schon vor dem Download geprüfte Schwarz-Weiß-Vorschauen. Zoom, Verschieben, graue Markierung offener Felder und optional verborgene fertige Farben unterstützen das Malen. Der Fokusmodus lässt Bild, Palette und einen einheitlichen Dreieck-Umschalter sichtbar. Hilfen finden offene Felder; optional unbegrenzt. Gespeicherte Aktionen können als Zeitraffer angesehen werden, fertige Bilder erneut ausgemalt werden, während frühere Ergebnisse und verfügbare Zeitraffer erhalten bleiben. Spielstände, Favoriten und Einstellungen bleiben lokal, ohne Konto, Käufe oder Werbung. Deutsch und Englisch. Eine technische Vier-Flächen-Probe liegt getrennt unter Testmotive. Genau ein erstes Zusatzpaket, weitere Inhalte und Downloadkomfort sind noch in Entwicklung. Kein Videoexport oder Undo. Android-Emulator und Linux geprüft; Saras neue persönliche Smartphoneprobe steht noch aus.",
       "symbol": "🎨",
       "preview": false,
       "androidRelease": {
         "packageName": "de.chobitschii.tintaloria",
-        "versionName": "0.7.1-hud",
-        "versionCode": 15,
-        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/tintaloria-v0.7.1-hud/tintaloria-0.7.1-hud-code15.apk",
-        "sizeBytes": 72760067,
-        "sha256": "3299dba4e8955abfcb33ab6a35c63600113b4ecb0a5b9f4a161cb3616afb3bdf",
+        "versionName": "0.7.2-gallery",
+        "versionCode": 16,
+        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/tintaloria-v0.7.2-gallery/tintaloria-0.7.2-gallery-code16.apk",
+        "sizeBytes": 72764354,
+        "sha256": "759f95d7cf960cfc524e5002c0de3a2c097b95170d1973215779fd3eda94fb36",
         "signingCertificateSha256": "1d36ce3ed5867bb9b680e5650099ab3a26f0d91ee8d98b823c022bdea5446556"
       },
       "coverImage": "https://chobitschii.github.io/chii-arcade/assets/tintaloria/cover-8aa52a636d62.webp",

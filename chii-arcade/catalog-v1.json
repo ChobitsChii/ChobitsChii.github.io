@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-24T14:16:36.701132Z",
+  "generatedAt": "2026-10-24T19:17:17.916051Z",
   "catalogMode": "mixed",
   "games": [
     {
@@ -34,17 +34,17 @@
       "id": "tintaloria",
       "title": "Tintaloria – Dein Königreich der Farben",
       "category": "Malen nach Zahlen",
-      "teaser": "Fertige Bilder ohne HUD als PNG speichern und unter Android teilen. Kostenloses, werbefreies Malen nach Zahlen.",
-      "description": "Tintaloria – Dein Königreich der Farben ist eine frühe kostenlose und werbefreie Malen-nach-Zahlen-Testversion. Vier eigene Motive sind vollständig mitgeliefert: Blumenkätzchen, Regenbogeneinhorn, Schmetterling im Blütentraum und Hüterin des Mondgartens. Neu in M04-A: Der Uhrwerk-Schmetterlingsgarten mit 182 Regionen und 24 Farbgruppen lässt sich freiwillig direkt aus der Galerie herunterladen. Nach vollständiger Prüfung ist das Bild offline spielbar. Beim Ausmalen erscheinen seine echten Originalpixel mit Schattierungen, Blüten- und Uhrwerkdetails. Downloadfortschritt, Abbruch und Wiederholen sind vorhanden. Favoriten bleiben unabhängig vom Download und Bearbeitungsstand. Galerie und Meine Bilder zeigen den echten Fortschritt. Themen, Schwierigkeit und Offlinefilter lassen sich kombinieren. Neue Zusatzbilder zeigen schon vor dem Download geprüfte Schwarz-Weiß-Vorschauen. Zoom, Verschieben, graue Markierung offener Felder und optional verborgene fertige Farben unterstützen das Malen. Der Fokusmodus lässt Bild, Palette und einen einheitlichen Dreieck-Umschalter sichtbar. Hilfen finden offene Felder; optional unbegrenzt. Gespeicherte Aktionen können als Zeitraffer angesehen werden, fertige Bilder erneut ausgemalt werden, während frühere Ergebnisse und verfügbare Zeitraffer erhalten bleiben. Spielstände, Favoriten und Einstellungen bleiben lokal, ohne Konto, Käufe oder Werbung. Deutsch und Englisch. Eine technische Vier-Flächen-Probe liegt getrennt unter Testmotive. Zusätzlich zum Uhrwerk-Schmetterlingsgarten sind 15 weitere Bildpakete zum freiwilligen Download verfügbar: Katzen, Pferde, Einhörner, Herzen, Anime-Mode, Steampunk, Torten und Feiertagsmotive. Alle 13 Themen besitzen mindestens drei passende Motive einschließlich der mitgelieferten Bilder. Weitere Inhalte und Downloadkomfort bleiben in Entwicklung. Kein Videoexport oder Undo. Android-Emulator und Linux geprüft; Saras neue persönliche Smartphoneprobe steht noch aus. Neu in M07-A: Spielstände einschließlich aller Durchgänge, Favoriten, Hilfen, Einstellungen und gespeicherter Zeitraffer als ZIP sichern und nach ausdrücklicher Bestätigung wiederherstellen. Bildpakete werden separat erneut heruntergeladen. Neu in M07-B: Fertige aktuelle und frühere Werke in Originalauflösung als PNG speichern und mit Androids Teilen-Dialog weitergeben, ohne Wasserzeichen. Videoexport ist noch nicht enthalten.",
+      "teaser": "Zeitraffer als echtes MP4 speichern und unter Android teilen. Entspanntes Malen nach Zahlen, kostenlos und werbefrei.",
+      "description": "Tintaloria – Dein Königreich der Farben ist eine frühe kostenlose und werbefreie Malen-nach-Zahlen-Testversion. Vier Motive sind offline mitgeliefert: Blumenkätzchen, Regenbogeneinhorn, Schmetterling im Blütentraum und Hüterin des Mondgartens. Weitere Bildpakete können freiwillig heruntergeladen und anschließend offline gespielt werden. Galerie und Meine Bilder zeigen echten Farbfortschritt; Themen, Schwierigkeit und Offlinefilter lassen sich kombinieren. Favoriten, Fokusmodus, Zoom, Verschieben, Farbmarkierungen und optionale Hilfen erleichtern das entspannte Ausmalen. Frühere fertige Durchgänge bleiben beim erneuten Ausmalen erhalten. Persönliche Spielstände einschließlich vorhandener Zeitraffer können als ZIP gesichert und wiederhergestellt werden. Fertige aktuelle und frühere Werke lassen sich ohne Wasserzeichen als PNG speichern und unter Android teilen. Neu in M07-C: Vollständig vorhandene Malhistorien als echtes H.264-MP4 mit 24 FPS und maximal 480 Pixeln Kantenlänge exportieren, speichern oder über Androids Teilen-Dialog weitergeben. Mit Fortschrittsanzeige und Abbruch, ohne den Spielstand zu verändern. Videoexport derzeit nur auf Android; Laufzeit und Encoderunterstützung hängen vom Gerät ab. Deutsch und Englisch, keine Werbung, Käufe oder Kontopflicht. Android-Emulator und Linux geprüft; Saras persönliche Smartphone-/WhatsApp-Probe der neuen Exportfunktion steht noch aus.",
       "symbol": "🎨",
       "preview": false,
       "androidRelease": {
         "packageName": "de.chobitschii.tintaloria",
-        "versionName": "0.8.1-m07b",
-        "versionCode": 22,
-        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/tintaloria-v0.8.1-m07b/tintaloria-0.8.1-m07b-code22-final.apk",
-        "sizeBytes": 72802449,
-        "sha256": "33725b046e8431217f7ac7c12a073fe8ef74370dc226884878d5cdb5b95ff00d",
+        "versionName": "0.8.2-m07c",
+        "versionCode": 23,
+        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/tintaloria-v0.8.2-m07c/tintaloria-0.8.2-m07c-code23-final.apk",
+        "sizeBytes": 72819376,
+        "sha256": "85b9cf15e3e32762e69a62a10c2492217afcb8b13052e60c5d98e6d0f8b5cdeb",
         "signingCertificateSha256": "1d36ce3ed5867bb9b680e5650099ab3a26f0d91ee8d98b823c022bdea5446556"
       },
       "coverImage": "https://chobitschii.github.io/chii-arcade/assets/tintaloria/cover-8aa52a636d62.webp",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-24T06:45:56.995587Z",
+  "generatedAt": "2026-10-24T07:17:00.736174Z",
   "catalogMode": "mixed",
   "games": [
     {
@@ -34,17 +34,17 @@
       "id": "tintaloria",
       "title": "Tintaloria – Dein Königreich der Farben",
       "category": "Malen nach Zahlen",
-      "teaser": "15 neue Downloadbilder, kombinierbare Themen- und Schwierigkeitsfilter.",
+      "teaser": "Entspanntes Malen nach Zahlen: übersichtliche Galerie und neueste eigene Bilder zuerst. Kostenlos, offline spielbar und werbefrei.",
       "description": "Tintaloria – Dein Königreich der Farben ist eine frühe kostenlose und werbefreie Malen-nach-Zahlen-Testversion. Vier eigene Motive sind vollständig mitgeliefert: Blumenkätzchen, Regenbogeneinhorn, Schmetterling im Blütentraum und Hüterin des Mondgartens. Neu in M04-A: Der Uhrwerk-Schmetterlingsgarten mit 182 Regionen und 24 Farbgruppen lässt sich freiwillig direkt aus der Galerie herunterladen. Nach vollständiger Prüfung ist das Bild offline spielbar. Beim Ausmalen erscheinen seine echten Originalpixel mit Schattierungen, Blüten- und Uhrwerkdetails. Downloadfortschritt, Abbruch und Wiederholen sind vorhanden. Favoriten bleiben unabhängig vom Download und Bearbeitungsstand. Galerie und Meine Bilder zeigen den echten Fortschritt. Themen, Schwierigkeit und Offlinefilter lassen sich kombinieren. Neue Zusatzbilder zeigen schon vor dem Download geprüfte Schwarz-Weiß-Vorschauen. Zoom, Verschieben, graue Markierung offener Felder und optional verborgene fertige Farben unterstützen das Malen. Der Fokusmodus lässt Bild, Palette und einen einheitlichen Dreieck-Umschalter sichtbar. Hilfen finden offene Felder; optional unbegrenzt. Gespeicherte Aktionen können als Zeitraffer angesehen werden, fertige Bilder erneut ausgemalt werden, während frühere Ergebnisse und verfügbare Zeitraffer erhalten bleiben. Spielstände, Favoriten und Einstellungen bleiben lokal, ohne Konto, Käufe oder Werbung. Deutsch und Englisch. Eine technische Vier-Flächen-Probe liegt getrennt unter Testmotive. Zusätzlich zum Uhrwerk-Schmetterlingsgarten sind 15 weitere Bildpakete zum freiwilligen Download verfügbar: Katzen, Pferde, Einhörner, Herzen, Anime-Mode, Steampunk, Torten und Feiertagsmotive. Alle 13 Themen besitzen mindestens drei passende Motive einschließlich der mitgelieferten Bilder. Weitere Inhalte und Downloadkomfort bleiben in Entwicklung. Kein Videoexport oder Undo. Android-Emulator und Linux geprüft; Saras neue persönliche Smartphoneprobe steht noch aus.",
       "symbol": "🎨",
       "preview": false,
       "androidRelease": {
         "packageName": "de.chobitschii.tintaloria",
-        "versionName": "0.7.4-gallery",
-        "versionCode": 18,
-        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/tintaloria-v0.7.4-gallery/tintaloria-0.7.4-gallery-code18-final.apk",
+        "versionName": "0.7.5-ui",
+        "versionCode": 19,
+        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/tintaloria-v0.7.5-ui/tintaloria-0.7.5-ui-code19.apk",
         "sizeBytes": 72768450,
-        "sha256": "c7e91f3baa4ddfa1596c518a4e07b8ca33de6bd27d87b94154b56007eed7642a",
+        "sha256": "5b665443f18a467d9a49b20be4b50cd3e3d81d586f924e18e1b8eb66bd3eb3c7",
         "signingCertificateSha256": "1d36ce3ed5867bb9b680e5650099ab3a26f0d91ee8d98b823c022bdea5446556"
       },
       "coverImage": "https://chobitschii.github.io/chii-arcade/assets/tintaloria/cover-8aa52a636d62.webp",

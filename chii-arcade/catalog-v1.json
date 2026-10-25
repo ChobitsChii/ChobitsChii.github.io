@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-24T19:17:17.916051Z",
+  "generatedAt": "2026-10-25T06:36:14.331516Z",
   "catalogMode": "mixed",
   "games": [
     {
@@ -34,17 +34,17 @@
       "id": "tintaloria",
       "title": "Tintaloria – Dein Königreich der Farben",
       "category": "Malen nach Zahlen",
-      "teaser": "Zeitraffer als echtes MP4 speichern und unter Android teilen. Entspanntes Malen nach Zahlen, kostenlos und werbefrei.",
-      "description": "Tintaloria – Dein Königreich der Farben ist eine frühe kostenlose und werbefreie Malen-nach-Zahlen-Testversion. Vier Motive sind offline mitgeliefert: Blumenkätzchen, Regenbogeneinhorn, Schmetterling im Blütentraum und Hüterin des Mondgartens. Weitere Bildpakete können freiwillig heruntergeladen und anschließend offline gespielt werden. Galerie und Meine Bilder zeigen echten Farbfortschritt; Themen, Schwierigkeit und Offlinefilter lassen sich kombinieren. Favoriten, Fokusmodus, Zoom, Verschieben, Farbmarkierungen und optionale Hilfen erleichtern das entspannte Ausmalen. Frühere fertige Durchgänge bleiben beim erneuten Ausmalen erhalten. Persönliche Spielstände einschließlich vorhandener Zeitraffer können als ZIP gesichert und wiederhergestellt werden. Fertige aktuelle und frühere Werke lassen sich ohne Wasserzeichen als PNG speichern und unter Android teilen. Neu in M07-C: Vollständig vorhandene Malhistorien als echtes H.264-MP4 mit 24 FPS und maximal 480 Pixeln Kantenlänge exportieren, speichern oder über Androids Teilen-Dialog weitergeben. Mit Fortschrittsanzeige und Abbruch, ohne den Spielstand zu verändern. Videoexport derzeit nur auf Android; Laufzeit und Encoderunterstützung hängen vom Gerät ab. Deutsch und Englisch, keine Werbung, Käufe oder Kontopflicht. Android-Emulator und Linux geprüft; Saras persönliche Smartphone-/WhatsApp-Probe der neuen Exportfunktion steht noch aus.",
+      "teaser": "Hotfix für zuverlässige Bildkataloge und DLCs nach Neustarts. Entspanntes Malen nach Zahlen, kostenlos und werbefrei.",
+      "description": "Tintaloria – Dein Königreich der Farben ist eine frühe kostenlose und werbefreie Malen-nach-Zahlen-Testversion. Vier Motive sind offline mitgeliefert: Blumenkätzchen, Regenbogeneinhorn, Schmetterling im Blütentraum und Hüterin des Mondgartens. Weitere Bildpakete können freiwillig heruntergeladen und anschließend offline gespielt werden. Galerie und Meine Bilder zeigen echten Farbfortschritt; Themen, Schwierigkeit und Offlinefilter lassen sich kombinieren. Favoriten, Fokusmodus, Zoom, Verschieben, Farbmarkierungen und optionale Hilfen erleichtern das entspannte Ausmalen. Frühere fertige Durchgänge bleiben beim erneuten Ausmalen erhalten. Persönliche Spielstände einschließlich vorhandener Zeitraffer können als ZIP gesichert und wiederhergestellt werden. Fertige aktuelle und frühere Werke lassen sich ohne Wasserzeichen als PNG speichern und unter Android teilen. Vollständig vorhandene Malhistorien als echtes H.264-MP4 mit 24 FPS und maximal 480 Pixeln Kantenlänge exportieren, speichern oder über Androids Teilen-Dialog weitergeben. Mit Fortschrittsanzeige und Abbruch, ohne den Spielstand zu verändern. Videoexport derzeit nur auf Android; Laufzeit und Encoderunterstützung hängen vom Gerät ab. Deutsch und Englisch, keine Werbung, Käufe oder Kontopflicht. Android-Emulator und Linux geprüft; Saras persönliche Smartphone-/WhatsApp-Probe der neuen Exportfunktion steht noch aus. Hotfix 0.8.3-m08b verbessert große Katalogcaches, die sichere Wiedererkennung installierter Bilder sowie die Android-Codec-Auswahl und Video-Fehlerdiagnose. Die erneute Nokia-G42-Abnahme und der MP4-Export auf diesem Smartphone bleiben offen.",
       "symbol": "🎨",
       "preview": false,
       "androidRelease": {
         "packageName": "de.chobitschii.tintaloria",
-        "versionName": "0.8.2-m07c",
-        "versionCode": 23,
-        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/tintaloria-v0.8.2-m07c/tintaloria-0.8.2-m07c-code23-final.apk",
-        "sizeBytes": 72819376,
-        "sha256": "85b9cf15e3e32762e69a62a10c2492217afcb8b13052e60c5d98e6d0f8b5cdeb",
+        "versionName": "0.8.3-m08b",
+        "versionCode": 24,
+        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/tintaloria-v0.8.3-m08b/tintaloria-0.8.3-m08b-code24-candidate-final.apk",
+        "sizeBytes": 72827568,
+        "sha256": "cfeb1bb33e68b6fbcb1bfd49dedcd91d3e38293badd8ba76545a78b24c9bcf14",
         "signingCertificateSha256": "1d36ce3ed5867bb9b680e5650099ab3a26f0d91ee8d98b823c022bdea5446556"
       },
       "coverImage": "https://chobitschii.github.io/chii-arcade/assets/tintaloria/cover-8aa52a636d62.webp",

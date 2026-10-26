@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-26T03:22:15.314754Z",
+  "generatedAt": "2026-10-26T10:01:53.690277Z",
   "catalogMode": "mixed",
   "games": [
     {
@@ -34,17 +34,17 @@
       "id": "tintaloria",
       "title": "Tintaloria – Dein Königreich der Farben",
       "category": "Malen nach Zahlen",
-      "teaser": "Galerie-Reparatur: wieder zuverlässig scrollen und sauber getrennte Bildkarten. Kostenlos und werbefrei.",
-      "description": "Tintaloria – Dein Königreich der Farben ist eine frühe kostenlose und werbefreie Malen-nach-Zahlen-Testversion. Vier Motive sind offline mitgeliefert: Blumenkätzchen, Regenbogeneinhorn, Schmetterling im Blütentraum und Hüterin des Mondgartens. Weitere Bildpakete können freiwillig heruntergeladen und anschließend offline gespielt werden. Galerie und Meine Bilder zeigen echten Farbfortschritt; Themen, Schwierigkeit und Offlinefilter lassen sich kombinieren. Favoriten, Fokusmodus, Zoom, Verschieben, Farbmarkierungen und optionale Hilfen erleichtern das entspannte Ausmalen. Frühere fertige Durchgänge bleiben beim erneuten Ausmalen erhalten. Persönliche Spielstände einschließlich vorhandener Zeitraffer können als ZIP gesichert und wiederhergestellt werden. Fertige aktuelle und frühere Werke lassen sich ohne Wasserzeichen als PNG speichern und unter Android teilen. Vollständig vorhandene Malhistorien als echtes H.264-MP4 mit 24 FPS und maximal 480 Pixeln Kantenlänge exportieren, speichern oder über Androids Teilen-Dialog weitergeben. Mit Fortschrittsanzeige und Abbruch, ohne den Spielstand zu verändern. Videoexport derzeit nur auf Android; Laufzeit und Encoderunterstützung hängen vom Gerät ab. Deutsch und Englisch, keine Werbung, Käufe oder Kontopflicht. Android-Emulator und Linux geprüft; Saras persönliche Smartphone-/WhatsApp-Probe der neuen Exportfunktion steht noch aus. Version 0.9.1 repariert die Touch-Weitergabe und überlaufende Bildkarten der virtuellen Galerie. Die weiterhin lange Startzeit auf Nokia G42 bleibt offen; dieses Update verspricht keine Startzeitverbesserung. Seit Version 0.9.0 enthalten sind eine virtuelle Galerie für größere Bibliotheken, Startdiagnose und optimierte Wiederverwendung gültiger Katalognachweise sowie „Speicher freigeben“ in den Einstellungen. Dort lassen sich ausschließlich heruntergeladene Bildinhalte entfernen; Ausmalfortschritte, Favoriten und Zeitraffer bleiben erhalten. Die bestehende signierte Bildbibliothek umfasst 60 reguläre Motive; die neue V2-Katalogarchitektur bleibt deaktiviert. Die erneute Nokia-G42-Abnahme und der MP4-Export auf diesem Smartphone bleiben offen.",
+      "teaser": "Performance-Hotfix: weniger Mehrfacharbeit bei Start und Speicherprüfung. Kostenlos und werbefrei.",
+      "description": "Tintaloria – Dein Königreich der Farben ist eine frühe kostenlose und werbefreie Malen-nach-Zahlen-Testversion. Vier Motive sind offline mitgeliefert: Blumenkätzchen, Regenbogeneinhorn, Schmetterling im Blütentraum und Hüterin des Mondgartens. Weitere Bildpakete können freiwillig heruntergeladen und anschließend offline gespielt werden. Galerie und Meine Bilder zeigen echten Farbfortschritt; Themen, Schwierigkeit und Offlinefilter lassen sich kombinieren. Favoriten, Fokusmodus, Zoom, Verschieben, Farbmarkierungen und optionale Hilfen erleichtern das entspannte Ausmalen. Frühere fertige Durchgänge bleiben beim erneuten Ausmalen erhalten. Persönliche Spielstände einschließlich vorhandener Zeitraffer können als ZIP gesichert und wiederhergestellt werden. Fertige aktuelle und frühere Werke lassen sich ohne Wasserzeichen als PNG speichern und unter Android teilen. Vollständig vorhandene Malhistorien als echtes H.264-MP4 mit 24 FPS und maximal 480 Pixeln Kantenlänge exportieren, speichern oder über Androids Teilen-Dialog weitergeben. Mit Fortschrittsanzeige und Abbruch, ohne den Spielstand zu verändern. Videoexport derzeit nur auf Android; Laufzeit und Encoderunterstützung hängen vom Gerät ab. Deutsch und Englisch, keine Werbung, Käufe oder Kontopflicht. Android-Emulator und Linux geprüft; Saras persönliche Smartphone-/WhatsApp-Probe der neuen Exportfunktion steht noch aus. Version 0.9.2 reduziert wiederholte Katalogprüfungen und tiefe Katalogkopien und beschleunigt die vollständige Maskenprüfung. Mit identischen isolierten Linux-Testdaten sank der Start-Prüfpfad von 2,92 auf 0,75 Sekunden und das Inventar von 28,70 auf 9,90 Sekunden. Das sind keine vollständigen Appstartzeiten und keine Messungen auf Saras Nokia G42 mit 46 DLCs; die tatsächliche Geräteverbesserung bleibt zu prüfen. Die Galerie-Reparaturen aus 0.9.1 bleiben enthalten. Der noch nicht Android-abgenommene MP4-Fix aus M11-B ist nicht Bestandteil dieser Version; der Nokia-MP4-Export bleibt offen. Seit Version 0.9.0 enthalten sind eine virtuelle Galerie für größere Bibliotheken, Startdiagnose und optimierte Wiederverwendung gültiger Katalognachweise sowie „Speicher freigeben“ in den Einstellungen. Dort lassen sich ausschließlich heruntergeladene Bildinhalte entfernen; Ausmalfortschritte, Favoriten und Zeitraffer bleiben erhalten. Die bestehende signierte Bildbibliothek umfasst 60 reguläre Motive; die neue V2-Katalogarchitektur bleibt deaktiviert. Die erneute Nokia-G42-Abnahme und der MP4-Export auf diesem Smartphone bleiben offen.",
       "symbol": "🎨",
       "preview": false,
       "androidRelease": {
         "packageName": "de.chobitschii.tintaloria",
-        "versionName": "0.9.1",
-        "versionCode": 26,
-        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/tintaloria-v0.9.1/tintaloria-0.9.1-code26-candidate.apk",
-        "sizeBytes": 72928832,
-        "sha256": "5e05aa7d02cc68979aff9503cbf2f292115754a6c69f675a73a96745f719b784",
+        "versionName": "0.9.2",
+        "versionCode": 27,
+        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/tintaloria-v0.9.2/tintaloria-0.9.2-code27-candidate.apk",
+        "sizeBytes": 72933310,
+        "sha256": "9cc148406defa999d020e5d50be1d03475e32ede9ef8781b6578c7ceabda8a02",
         "signingCertificateSha256": "1d36ce3ed5867bb9b680e5650099ab3a26f0d91ee8d98b823c022bdea5446556"
       },
       "coverImage": "https://chobitschii.github.io/chii-arcade/assets/tintaloria/cover-8aa52a636d62.webp",

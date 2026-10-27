@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-27T00:53:47.835690Z",
+  "generatedAt": "2026-10-27T00:55:33.253650Z",
   "catalogMode": "mixed",
   "games": [
     {
@@ -34,7 +34,7 @@
       "id": "tintaloria",
       "title": "Tintaloria – Dein Königreich der Farben",
       "category": "Malen nach Zahlen",
-      "teaser": "Animierte GIF-Zeitraffer speichern und teilen. Kostenlos, werbefrei und ohne Videocodec.",
+      "teaser": "60 Malmotive, GIF- und H.264-MP4-Zeitraffer. Kostenlos, werbefrei, ohne Käufe.",
       "description": "Tintaloria – Dein Königreich der Farben ist ein kostenloses und werbefreies Malen-nach-Zahlen-Spiel ohne Käufe oder Kontozwang. 60 Motive in 13 Themen: vier Bilder sind mitgeliefert, 56 weitere können einzeln heruntergeladen und anschließend offline gespielt werden. Galerie, Themen-/Schwierigkeitsfilter, Favoriten und Meine Bilder zeigen den tatsächlichen Farbfortschritt. Zoom, Verschieben, Fokusmodus, Farbmarkierungen und optionale Hilfen unterstützen das entspannte Ausmalen. Frühere abgeschlossene Durchgänge und vorhandene Zeitraffer bleiben beim erneuten Ausmalen erhalten. Spielstände einschließlich Replayhistorie lassen sich als ZIP sichern und wiederherstellen; heruntergeladene Bildinhalte separat entfernen, ohne den persönlichen Fortschritt zu löschen. Fertige Werke können als PNG gespeichert und geteilt werden. Neu in 0.9.4: animierte GIF-Zeitraffer mit fester Kamera, den tatsächlichen Malaktionen, leerem Anfang und längerer Endansicht. GIF speichern oder über Android teilen, mit Fortschritt und Abbruch; maximal 384 Pixel Kantenlänge und knapp 30 Sekunden. Kurzer GIF-Export, Systemdateiauswahl, Teilen-Dialog und animierte Anzeige auf Galaxy S10/Android 12 geprüft. Keine Nachricht wurde versendet; Saras WhatsApp-/Nokia-Probe bleibt separat. Android-Dokument-URIs für GIF und Spielstandsicherung bleiben unverändert; neue V1-Downloads werden nach vollständiger Installation korrekt angezeigt und vor Öffnung weiter geprüft. Die Performanceverbesserungen aus 0.9.3 bleiben erhalten. Neu in 0.9.5: H.264-MP4-Zeitraffer speichern und teilen, auf Galaxy S10/Android 12 geprüft; die Nokia-G42-Abnahme steht noch aus. V2-Katalog deaktiviert. Deutsch und Englisch. Frühe Testversion, keine Android-1.0-Freigabe.",
       "symbol": "🎨",
       "preview": false,

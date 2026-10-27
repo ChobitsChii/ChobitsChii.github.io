@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-27T13:21:40.817188Z",
+  "generatedAt": "2026-10-27T23:03:28.111892Z",
   "catalogMode": "mixed",
   "games": [
     {
@@ -40,11 +40,11 @@
       "preview": false,
       "androidRelease": {
         "packageName": "de.chobitschii.tintaloria",
-        "versionName": "0.9.7",
-        "versionCode": 37,
-        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/tintaloria-v0.9.7/tintaloria-0.9.7-code37-candidate.apk",
+        "versionName": "0.9.8",
+        "versionCode": 41,
+        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/tintaloria-v0.9.8/tintaloria-0.9.8-code41-candidate.apk",
         "sizeBytes": 70940725,
-        "sha256": "37aeaf198951a0c830d260d33c1b6cb13f815a2bf04ee6bba793c8fbbb252d9e",
+        "sha256": "334520aba1a60b0b05368e4378b33c164297a0a89c6f550b7162a161fdfe9a03",
         "signingCertificateSha256": "1d36ce3ed5867bb9b680e5650099ab3a26f0d91ee8d98b823c022bdea5446556"
       },
       "coverImage": "https://chobitschii.github.io/chii-arcade/assets/tintaloria/cover-8aa52a636d62.webp",

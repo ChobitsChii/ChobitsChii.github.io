@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-28T20:54:04.639037Z",
+  "generatedAt": "2026-10-28T20:54:24.031576Z",
   "catalogMode": "mixed",
   "games": [
     {
@@ -20,7 +20,7 @@
         "sha256": "516e979f95284ba3ba3af52daffdd4256a27800cb5e53c8a8ada9eb2a30cefb0",
         "signingCertificateSha256": "f180a9c294153bdc6fb700794bf980736ff1785331058beb933e474b8c8fcb5c"
       },
-      "coverImage": "https://chobitschii.github.io/chii-arcade/assets/kaskellia/cover-e9ced9459ef7.webp",
+      "coverImage": "https://chobitschii.github.io/chii-arcade/assets/kaskellia/cover-fcac376708d3.webp",
       "screenshots": [
         "https://chobitschii.github.io/chii-arcade/assets/kaskellia/screenshot-01-ac671da7c467.webp",
         "https://chobitschii.github.io/chii-arcade/assets/kaskellia/screenshot-02-a4cc9e1a240e.webp",

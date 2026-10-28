@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-28T11:17:46.096269Z",
+  "generatedAt": "2026-10-28T20:54:04.639037Z",
   "catalogMode": "mixed",
   "games": [
     {
@@ -8,16 +8,16 @@
       "title": "Kaskellia",
       "category": "Puzzle",
       "teaser": "Farbenfrohe Kugelrätsel mit zauberhaften Kettenreaktionen.",
-      "description": "Entdecke 120 liebevoll gestaltete Kugelrätsel in zwölf farbenfrohen Regionen: Reise über die große verschiebbare Weltkarte von den Lichtblütengärten bis zur Himmelskrone. Sechs Power-ups entfesseln spektakuläre Kettenreaktionen – auch fallende Spezialkugeln zünden! Zeitsterne belohnen dein Tempo, jeder Sieg öffnet den nächsten Garten. Mit Ruhemodus, sanften Effekten, Spielhilfe und lokal gespeicherten Bestleistungen. Für Touch und Maus, im Hoch- und Querformat. Version 0.8.0 (M08).",
+      "description": "Entdecke jetzt 200 liebevoll gestaltete Kugelrätsel in 20 farbenfrohen Regionen. Reise über die große Weltkarte von den Lichtblütengärten bis zur Morgenblüte und zoome mit zwei Fingern oder dem Mausrad direkt am Fokus. Sechs Power-ups entfesseln spektakuläre Kettenreaktionen – auch fallende Spezialkugeln zünden! Zeitsterne belohnen dein Tempo, jeder Sieg öffnet den nächsten Garten. Mit Ruhemodus, sanften Effekten, Spielhilfe und lokal gespeicherten Bestleistungen. Bestehender Fortschritt bleibt erhalten. Für Touch und Maus, im Hoch- und Querformat. Version 0.9.0 (M09).",
       "symbol": "🌸",
       "preview": false,
       "androidRelease": {
         "packageName": "de.chobitschii.kaskellia",
-        "versionName": "0.8.0",
-        "versionCode": 8,
-        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/kaskellia-v0.8.0/kaskellia-m08.apk",
-        "sizeBytes": 57528130,
-        "sha256": "5584c030f256a9ca670525c06cb8b590c36cae373b90b8257b5bec17e790f346",
+        "versionName": "0.9.0",
+        "versionCode": 9,
+        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/kaskellia-v0.9.0/kaskellia-m09.apk",
+        "sizeBytes": 58702612,
+        "sha256": "516e979f95284ba3ba3af52daffdd4256a27800cb5e53c8a8ada9eb2a30cefb0",
         "signingCertificateSha256": "f180a9c294153bdc6fb700794bf980736ff1785331058beb933e474b8c8fcb5c"
       },
       "coverImage": "https://chobitschii.github.io/chii-arcade/assets/kaskellia/cover-e9ced9459ef7.webp",

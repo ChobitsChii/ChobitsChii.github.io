@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-28T10:49:37.534908Z",
+  "generatedAt": "2026-10-28T10:52:59.505038Z",
   "catalogMode": "mixed",
   "games": [
     {
@@ -61,16 +61,16 @@
       "title": "Diorama Sandbox",
       "category": "Kreativ",
       "teaser": "Gemütliches 3D-Diorama-Bauspiel im Low-Poly-Voxelstil.",
-      "description": "Erschaffe deine eigene Miniatur-Inselwelt mit 38 verschiedenen Objekten, dynamischen Rastergrößen von 8×8 bis 24×24, Tag- & Nacht-Atmosphäre und interaktivem Erkunden-Modus. Gestalte Böden, Gebäude, Natur, Tiere und Dekorationen mit vollem Undo/Redo und lokaler Speicherung für Touch und Tastatur.",
+      "description": "Erschaffe deine eigene Miniatur-Inselwelt mit 42 verschiedenen Objekten, dynamischen Rastergrößen von 8×8 bis 24×24, Tag- & Nacht-Atmosphäre, Erntekorb zum Ernten & Füttern der Tiere und interaktivem Erkunden-Modus. Gestalte Böden, Gebäude, Natur, Tiere und Dekorationen mit vollem Undo/Redo, 5 Snapshot-Slots und lokaler Speicherung für Touch und Tastatur.",
       "symbol": "🏝️",
       "preview": false,
       "androidRelease": {
         "packageName": "de.chobitschii.diorama",
-        "versionName": "0.1.0-beta.12",
-        "versionCode": 12,
-        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/diorama-v0.1.0-beta.12/diorama-0.1.0-beta.12.apk",
-        "sizeBytes": 76562252,
-        "sha256": "0851814288d14ef9369efbc701290af5281f4cf9008475b7a8044ee6b6241c6e",
+        "versionName": "0.1.0-beta.13",
+        "versionCode": 13,
+        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/diorama-v0.1.0-beta.13/diorama-0.1.0-beta.13.apk",
+        "sizeBytes": 76649182,
+        "sha256": "e548dde2b956926b76efdaf50d9693997c5c9b023fce73320179f6f9f0b05994",
         "signingCertificateSha256": "a36a3326986f9c6da099df5f9ea9ad914f48aae26a5a9dd47684c5e25b1e428f"
       },
       "coverImage": "https://chobitschii.github.io/chii-arcade/assets/diorama/cover-bac445535285.webp",

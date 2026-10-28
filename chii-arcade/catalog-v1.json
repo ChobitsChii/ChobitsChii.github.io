@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-28T20:54:24.031576Z",
+  "generatedAt": "2026-10-28T22:29:46.924910Z",
   "catalogMode": "mixed",
   "games": [
     {
@@ -8,16 +8,16 @@
       "title": "Kaskellia",
       "category": "Puzzle",
       "teaser": "Farbenfrohe Kugelrätsel mit zauberhaften Kettenreaktionen.",
-      "description": "Entdecke jetzt 200 liebevoll gestaltete Kugelrätsel in 20 farbenfrohen Regionen. Reise über die große Weltkarte von den Lichtblütengärten bis zur Morgenblüte und zoome mit zwei Fingern oder dem Mausrad direkt am Fokus. Sechs Power-ups entfesseln spektakuläre Kettenreaktionen – auch fallende Spezialkugeln zünden! Zeitsterne belohnen dein Tempo, jeder Sieg öffnet den nächsten Garten. Mit Ruhemodus, sanften Effekten, Spielhilfe und lokal gespeicherten Bestleistungen. Bestehender Fortschritt bleibt erhalten. Für Touch und Maus, im Hoch- und Querformat. Version 0.9.0 (M09).",
+      "description": "Entdecke 200 liebevoll gestaltete Kugelrätsel in 20 farbenfrohen Regionen. Reise über die große Weltkarte von den Lichtblütengärten bis zur Morgenblüte: Pinch-Geste und Mausrad zoomen am Fokus, die Schnellreise-Leiste bringt dich in der Übersicht direkt zu einer anderen Welt. Sechs Power-ups entfesseln spektakuläre Kettenreaktionen – auch fallende Spezialkugeln zünden! Das neue Hauptmenü lässt dich weiterspielen, die Karte öffnen oder das Spiel beenden; Android-Zurück schließt die App dort ebenfalls. Zeitsterne belohnen dein Tempo, jeder Sieg öffnet den nächsten Garten. Mit Ruhemodus, sanften Effekten, Spielhilfe und lokal gespeicherten Bestleistungen. Bestehender Fortschritt bleibt erhalten. Für Touch und Maus, im Hoch- und Querformat. Version 0.10.0 (M10).",
       "symbol": "🌸",
       "preview": false,
       "androidRelease": {
         "packageName": "de.chobitschii.kaskellia",
-        "versionName": "0.9.0",
-        "versionCode": 9,
-        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/kaskellia-v0.9.0/kaskellia-m09.apk",
-        "sizeBytes": 58702612,
-        "sha256": "516e979f95284ba3ba3af52daffdd4256a27800cb5e53c8a8ada9eb2a30cefb0",
+        "versionName": "0.10.0",
+        "versionCode": 10,
+        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/kaskellia-v0.10.0/kaskellia-m10.apk",
+        "sizeBytes": 58985756,
+        "sha256": "ea8e1165c4707fe87d189b3c2e95f97508da198352739cd981e208c65ba6d498",
         "signingCertificateSha256": "f180a9c294153bdc6fb700794bf980736ff1785331058beb933e474b8c8fcb5c"
       },
       "coverImage": "https://chobitschii.github.io/chii-arcade/assets/kaskellia/cover-fcac376708d3.webp",

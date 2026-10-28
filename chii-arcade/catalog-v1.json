@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-28T10:52:59.505038Z",
+  "generatedAt": "2026-10-28T10:58:49.617839Z",
   "catalogMode": "mixed",
   "games": [
     {
@@ -75,11 +75,11 @@
       },
       "coverImage": "https://chobitschii.github.io/chii-arcade/assets/diorama/cover-bac445535285.webp",
       "screenshots": [
-        "https://chobitschii.github.io/chii-arcade/assets/diorama/screenshot-01-fd60deff8b43.webp",
-        "https://chobitschii.github.io/chii-arcade/assets/diorama/screenshot-02-701a8c1e4824.webp",
-        "https://chobitschii.github.io/chii-arcade/assets/diorama/screenshot-03-77f5067feea5.webp",
-        "https://chobitschii.github.io/chii-arcade/assets/diorama/screenshot-04-f08650e1588e.webp",
-        "https://chobitschii.github.io/chii-arcade/assets/diorama/screenshot-05-8dea248a51c3.webp"
+        "https://chobitschii.github.io/chii-arcade/assets/diorama/screenshot-01-5d3f5258ecb9.webp",
+        "https://chobitschii.github.io/chii-arcade/assets/diorama/screenshot-02-10a75c34c335.webp",
+        "https://chobitschii.github.io/chii-arcade/assets/diorama/screenshot-03-674cacc7639c.webp",
+        "https://chobitschii.github.io/chii-arcade/assets/diorama/screenshot-04-2a5d1e1e3718.webp",
+        "https://chobitschii.github.io/chii-arcade/assets/diorama/screenshot-05-7492bdd350e3.webp"
       ]
     }
   ]

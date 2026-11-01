@@ -1,0 +1,11 @@
+{
+  "version": "0.2.0-dev.1",
+  "notes": "DE: Erster signierter Linux-DEV-Bootstrap auf Debian 12.\nEN: First signed Linux DEV bootstrap on Debian 12.",
+  "pub_date": "2026-11-01T20:54:09Z",
+  "platforms": {
+    "linux-x86_64": {
+      "url": "https://github.com/ChobitsChii/chii-arcade-desktop-releases/releases/download/desktop-dev-v0.2.0-dev.1/chii-arcade-desktop-dev-linux-x86_64.AppImage",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVzRMZThHaGhVRmpFdjg4aXlOc2dCTmtHVWE4UmhlbUZaQlpzZnhqWnRSMmZjQmZnYnVwdDVWQkpKTDhBUjRoVUtmdG1hMWd0aTNQS21iTy83WXhJMklabHlVM3FqNVFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNTY1OTQ0CWZpbGU6Q2hpaSBBcmNhZGUgREVWXzAuMi4wLWRldi4xX2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC4yLjAtZGV2LjEKVDUrV0gwa1FTYlBmek9pcURhK3B3NWErRFlZMTR3T1Jhem9qVTI0WERxZkhHL2pLUE9rb1djWGdaUC85UVAzeUtRRUpjSFAvUFFBUDYxTmdEdGtoQ3c9PQo="
+    }
+  }
+}

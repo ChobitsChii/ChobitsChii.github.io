@@ -1,11 +1,11 @@
 {
-  "version": "0.2.0-dev.1",
-  "notes": "DE: Erster signierter Linux-DEV-Bootstrap auf Debian 12.\nEN: First signed Linux DEV bootstrap on Debian 12.",
-  "pub_date": "2026-11-01T20:54:09Z",
+  "version": "0.2.0-dev.4",
+  "notes": "DE: Linux-DEV-Updater: signiertes Update von 0.2.0-dev.1 auf 0.2.0-dev.4.\nEN: Linux DEV updater: signed update from 0.2.0-dev.1 to 0.2.0-dev.4.",
+  "pub_date": "2026-11-07T12:13:38Z",
   "platforms": {
     "linux-x86_64": {
-      "url": "https://github.com/ChobitsChii/chii-arcade-desktop-releases/releases/download/desktop-dev-v0.2.0-dev.1/chii-arcade-desktop-dev-linux-x86_64.AppImage",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVzRMZThHaGhVRmpFdjg4aXlOc2dCTmtHVWE4UmhlbUZaQlpzZnhqWnRSMmZjQmZnYnVwdDVWQkpKTDhBUjRoVUtmdG1hMWd0aTNQS21iTy83WXhJMklabHlVM3FqNVFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNTY1OTQ0CWZpbGU6Q2hpaSBBcmNhZGUgREVWXzAuMi4wLWRldi4xX2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC4yLjAtZGV2LjEKVDUrV0gwa1FTYlBmek9pcURhK3B3NWErRFlZMTR3T1Jhem9qVTI0WERxZkhHL2pLUE9rb1djWGdaUC85UVAzeUtRRUpjSFAvUFFBUDYxTmdEdGtoQ3c9PQo="
+      "url": "https://github.com/ChobitsChii/chii-arcade-desktop-releases/releases/download/desktop-dev-v0.2.0-dev.4/chii-arcade-desktop-dev-linux-x86_64.AppImage",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVzRMZThHaGhVRnZ5bE96RGo3SHF3bzdFSndiUXA4WjliakxWZ0hXNlVNd01MVGtIS0pTRnJnTGUxY3lxTlducEVaYkRYMVNDQ1o5UjdyTWxrckplS3p0dGJFYTFnVUFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDUzNTc3CWZpbGU6Q2hpaSBBcmNhZGUgREVWXzAuMi4wLWRldi40X2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC4yLjAtZGV2LjQKRndsd083Q2xheEhwRWl6ZGU4bUhCTnB2bkNjWVNEMlkzdTN2STExQktxcWk1Z1dadDVWRE1LbGUrbytwSFRjVDRUL0lZVkJkUytheTBkMXd0SzV6Qnc9PQo="
     }
   }
 }

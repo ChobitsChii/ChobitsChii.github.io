@@ -1,11 +1,11 @@
 {
-  "version": "0.2.0-dev.4",
-  "notes": "DE: Linux-DEV-Updater: signiertes Update von 0.2.0-dev.1 auf 0.2.0-dev.4.\nEN: Linux DEV updater: signed update from 0.2.0-dev.1 to 0.2.0-dev.4.",
-  "pub_date": "2026-11-07T12:13:38Z",
+  "version": "0.2.0-dev.5",
+  "notes": "DE: Linux-Updater behoben: Linux-x86_64-Ziel wird korrekt erkannt. Installationen von 0.2.0-dev.1 und 0.2.0-dev.4 müssen einmalig manuell auf 0.2.0-dev.5 aktualisiert werden; danach laufen Updates wieder automatisch.\nEN: Fixed Linux updater target detection. Installations of 0.2.0-dev.1 and 0.2.0-dev.4 must be upgraded manually to 0.2.0-dev.5 once; automatic updates work afterward.",
+  "pub_date": "2026-11-07T13:13:57Z",
   "platforms": {
     "linux-x86_64": {
-      "url": "https://github.com/ChobitsChii/chii-arcade-desktop-releases/releases/download/desktop-dev-v0.2.0-dev.4/chii-arcade-desktop-dev-linux-x86_64.AppImage",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVzRMZThHaGhVRnZ5bE96RGo3SHF3bzdFSndiUXA4WjliakxWZ0hXNlVNd01MVGtIS0pTRnJnTGUxY3lxTlducEVaYkRYMVNDQ1o5UjdyTWxrckplS3p0dGJFYTFnVUFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDUzNTc3CWZpbGU6Q2hpaSBBcmNhZGUgREVWXzAuMi4wLWRldi40X2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC4yLjAtZGV2LjQKRndsd083Q2xheEhwRWl6ZGU4bUhCTnB2bkNjWVNEMlkzdTN2STExQktxcWk1Z1dadDVWRE1LbGUrbytwSFRjVDRUL0lZVkJkUytheTBkMXd0SzV6Qnc9PQo="
+      "url": "https://github.com/ChobitsChii/chii-arcade-desktop-releases/releases/download/desktop-dev-v0.2.0-dev.5/chii-arcade-desktop-dev-linux-x86_64.AppImage",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSVzRMZThHaGhVRmsrdnZTbXBnY0F5SXdGUmEzRkZ3bHExSlUwZlpZWEtiYjNlWit5ZzBRdjV2cmpvZkxYVUI4V3dPVEpPZExoWlpSWlNvdXVtMC9aNmIvMFJuQTM0K2c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDU3MjA4CWZpbGU6Q2hpaSBBcmNhZGUgREVWXzAuMi4wLWRldi41X2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC4yLjAtZGV2LjUKU21HV2RFOWwwL2FxUWQvaUpVUHRsTk8xMTlMQytPL2tSc0NldnhTVmJCZmJLbkNIZDZQd24xUEQzNmN6cXBsdWZ4enpTNlZYU2g2dUg2aFYzb0NiQ3c9PQo="
     }
   }
 }

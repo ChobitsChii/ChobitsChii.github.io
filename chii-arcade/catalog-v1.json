@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-11T19:39:31.286808Z",
+  "generatedAt": "2026-11-11T20:17:15.682900Z",
   "catalogMode": "mixed",
   "games": [
     {
@@ -34,17 +34,17 @@
       "id": "tintaloria",
       "title": "Tintaloria – Dein Königreich der Farben",
       "category": "Malen nach Zahlen",
-      "teaser": "200 Malmotive in 16 Themen. Kostenlos, werbefrei und ohne Käufe; mit GIF- und H.264-MP4-Zeitraffern.",
-      "description": "Tintaloria – Dein Königreich der Farben ist ein kostenloses und werbefreies Malen-nach-Zahlen-Spiel ohne Käufe oder Kontozwang. 200 Motive in 16 Themen: vier Bilder sind mitgeliefert, 196 weitere können einzeln heruntergeladen und anschließend offline gespielt werden. Galerie, Themen-, Schwierigkeits- und Offlinefilter, Favoriten und Meine Bilder zeigen den tatsächlichen Farbfortschritt. Kategorien umfassen unter anderem Tiere, Katzen, Pferde, Schmetterlinge, Drachen, Technik, Fantasy, Blumen, Mode, Steampunk und Jahreszeiten. Zoom, Verschieben, Fokusmodus, Farbmarkierungen und optionale Hilfen unterstützen das Ausmalen. Frühere abgeschlossene Durchgänge und Zeitraffer bleiben beim erneuten Ausmalen erhalten. Spielstände einschließlich Replayhistorie lassen sich als ZIP sichern und wiederherstellen; heruntergeladene Bildinhalte separat entfernen, ohne Fortschritt oder Favoriten zu löschen. Fertige Werke können als PNG gespeichert und geteilt werden. GIF-Zeitraffer zeigen die tatsächlichen Malaktionen und lassen sich speichern oder teilen. H.264-MP4-Zeitraffer können auf kompatiblen Geräten gespeichert und geteilt werden; die Gerätefähigkeit wird vor dem Export geprüft. Bildkatalog, Vorschauen und Installationen werden authentifiziert; vorhandene Offlinebilder bleiben bei Netzwerkfehlern verfügbar. Deutsch und Englisch. Der Galaxy-S10-Test der Version 0.9.11 deckte Katalog, Galerie, Kategorien und Updatepfad ab.",
+      "teaser": "200 Malmotive in 16 Themen. Optional kompakte Galerie. Kostenlos, werbefrei und ohne Käufe; mit GIF- und H.264-MP4-Zeitraffern.",
+      "description": "Tintaloria – Dein Königreich der Farben ist ein kostenloses und werbefreies Malen-nach-Zahlen-Spiel ohne Käufe oder Kontozwang. 200 Motive in 16 Themen: vier Bilder sind mitgeliefert, 196 weitere können einzeln heruntergeladen und anschließend offline gespielt werden. Galerie, Themen-, Schwierigkeits- und Offlinefilter, Favoriten und Meine Bilder zeigen den tatsächlichen Farbfortschritt. Die Galerie bietet weiterhin standardmäßig ausführliche Karten und optional ein kompaktes Raster mit Detailansicht. Kategorien umfassen unter anderem Tiere, Katzen, Pferde, Schmetterlinge, Drachen, Technik, Fantasy, Blumen, Mode, Steampunk und Jahreszeiten. Zoom, Verschieben, Fokusmodus, Farbmarkierungen und optionale Hilfen unterstützen das Ausmalen. Frühere abgeschlossene Durchgänge und Zeitraffer bleiben beim erneuten Ausmalen erhalten. Spielstände einschließlich Replayhistorie lassen sich als ZIP sichern und wiederherstellen; heruntergeladene Bildinhalte separat entfernen, ohne Fortschritt oder Favoriten zu löschen. Fertige Werke können als PNG gespeichert und geteilt werden. GIF-Zeitraffer zeigen die tatsächlichen Malaktionen und lassen sich speichern oder teilen. H.264-MP4-Zeitraffer können auf kompatiblen Geräten gespeichert und geteilt werden; die Gerätefähigkeit wird vor dem Export geprüft. Bildkatalog, Vorschauen und Installationen werden authentifiziert; vorhandene Offlinebilder bleiben bei Netzwerkfehlern verfügbar. Deutsch und Englisch. Der signierte Code-47-Testbuild wurde auf einem Nokia G42 mit 200 Galeriebildern, Kompaktansicht, Detailöffnung und gespeicherter Ansichtspräferenz geprüft.",
       "symbol": "🎨",
       "preview": false,
       "androidRelease": {
         "packageName": "de.chobitschii.tintaloria",
-        "versionName": "0.9.13",
-        "versionCode": 46,
-        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/tintaloria-v0.9.13/tintaloria-0.9.13-code46-candidate4.apk",
-        "sizeBytes": 70989253,
-        "sha256": "d80d2fc6b4281b58933f4391b4d865f0885f668133960b1951eb5f13fdf8b890",
+        "versionName": "0.9.14",
+        "versionCode": 47,
+        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/tintaloria-v0.9.14/tintaloria-0.9.14-code47-candidate2.apk",
+        "sizeBytes": 70999461,
+        "sha256": "19121c644216aa6819809d3c11084a7c3ecff1a8dfd15508746782c27055096e",
         "signingCertificateSha256": "1d36ce3ed5867bb9b680e5650099ab3a26f0d91ee8d98b823c022bdea5446556"
       },
       "coverImage": "https://chobitschii.github.io/chii-arcade/assets/tintaloria/cover-8aa52a636d62.webp",

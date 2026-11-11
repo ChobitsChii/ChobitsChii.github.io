@@ -3,12 +3,12 @@
   "channel": "stable",
   "release": {
     "packageName": "io.github.chobitschii.chiiarcade",
-    "versionName": "1.0.12",
-    "versionCode": 12,
-    "apkUrl": "https://github.com/ChobitsChii/chii-arcade-releases/releases/download/store-v1.0.12/chii-arcade-v1.0.12.apk",
-    "sizeBytes": 6635948,
-    "sha256": "8ac4a1aa31d9f7a616b5ae379b6991bd7f28d2b04786e8349c78755d036bc02b",
+    "versionName": "1.0.13",
+    "versionCode": 13,
+    "apkUrl": "https://github.com/ChobitsChii/chii-arcade-releases/releases/download/store-v1.0.13/chii-arcade-v1.0.13.apk",
+    "sizeBytes": 6635972,
+    "sha256": "11fd0f064af9ad6784bedfd510166a3b39bc69a2895a9bff74d30abd737c72bd",
     "signingCertificateSha256": "41b56da15911be8bf8ee05760bd0bf22f11a658ae4cd8b4477d21cf3d662ea1b",
-    "publishedAt": "2026-10-24T08:55:40.415051Z"
+    "publishedAt": "2026-11-11T05:28:09.415541Z"
   }
 }

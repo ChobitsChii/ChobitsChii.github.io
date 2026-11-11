@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-11T05:50:50.944053Z",
+  "generatedAt": "2026-11-11T14:07:48.615185Z",
   "catalogMode": "mixed",
   "games": [
     {
@@ -87,16 +87,16 @@
       "title": "Numeloria – Das bunte Zahlenchaos",
       "category": "Puzzle",
       "teaser": "Farbenfrohes 3D-Physik-Merge-Puzzle mit Zahlenwürfeln, Kettenreaktionen und Power-ups. Offline, werbefrei und ohne Käufe.",
-      "description": "Numeloria ist ein farbenfrohes 3D-Physik-Puzzlespiel rund um Zahlenwürfel, Schwerkraft und Kettenreaktionen. Lass nummerierte Würfel präzise ins Spielfeld fallen, verschmelze gleiche Zahlen (2+2=4 bis über 2048 hinaus) und löse Kaskaden aus. Wähle im Hauptmenü unabhängig zwischen dem räumlichen 3D-Spielfeld (mehrere Tiefenreihen, Übersichtsansicht & 180°-Kameradrehung) und der klaren flachen Variante (eine Würfelreihe ohne Verdeckung, echte 3D-Kippphysik & direkte horizontale Steuerung). Beide Varianten unterstützen die getrennten Spielmodi Klassisch (Highscore & faires Limit) und Entspannt (ohne Game-over-Zwang) sowie die Physikeinstellungen Lebhaft oder Ruhig. Drei Textgrößen (Klein, Normal, Groß), ruhige Musik und getrennte Lautstärkeregler, Power-ups (Hammer, Zahlenmagnet, Wirbelwind), Deutsch/Englisch, vollständig offline, ohne Werbung oder Käufe.",
+      "description": "Numeloria ist ein farbenfrohes 3D-Physik-Puzzlespiel rund um Zahlenwürfel, Schwerkraft und Kettenreaktionen. Lass nummerierte Würfel präzise ins Spielfeld fallen, verschmelze gleiche Zahlen (2+2=4 bis über 2048 hinaus) und löse Kaskaden aus. Mit höherem Rundenfortschritt wachsen die verfügbaren Wurfwerte dynamisch mit, während kleinste Zahlen geordnet entfallen. Wähle im Hauptmenü unabhängig zwischen dem räumlichen 3D-Spielfeld (mehrere Tiefenreihen, Übersichtsansicht & 180°-Kameradrehung) und der klaren flachen Variante (eine Würfelreihe ohne Verdeckung, echte 3D-Kippphysik & direkte horizontale Steuerung). Beide Varianten unterstützen die getrennten Spielmodi Klassisch (Highscore & faires Limit) und Entspannt (ohne Game-over-Zwang) sowie die Physikeinstellungen Lebhaft oder Ruhig. Dazu kommen drei live wählbare Würfel-Farbthemen (Klassik, Pastell, Kontrast), Komfort-Einstellungen (Sanfte Bewegung, Android-Haptik ohne Zusatzrechte, drei Textgrößen Klein/Normal/Groß), getrennte SFX-/Musik-Regler, Power-ups (Hammer, Zahlenmagnet, Wirbelwind), lokale Statistik & 10 Offline-Meilensteine, Deutsch/Englisch – vollständig offline, werbefrei und ohne Käufe.",
       "symbol": "🎲",
       "preview": false,
       "androidRelease": {
         "packageName": "de.chobitschii.numeloria",
-        "versionName": "0.7.0",
-        "versionCode": 5,
-        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/numeloria-v0.7.0/numeloria-v0.7.0.apk",
-        "sizeBytes": 54661359,
-        "sha256": "76b7fab6c58265e2a8b68f756b990e06e962bf073e2b28550318d51634800c67",
+        "versionName": "1.1.0",
+        "versionCode": 7,
+        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/numeloria-v1.1.0/numeloria-v1.1.0.apk",
+        "sizeBytes": 55332982,
+        "sha256": "6c8fc16278291c100a0f1fd3d8fb939acd2fe1e9d7e8a2cccbb57baf54c2c1f9",
         "signingCertificateSha256": "1b80d7dd7003a509335cb14f3d57503093cb7a7a6c2afeee1d7fd65e9b28c44c"
       },
       "coverImage": "https://chobitschii.github.io/chii-arcade/assets/numeloria/cover-d371403fc883.webp",

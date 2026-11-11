@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-10T20:13:53.968852Z",
+  "generatedAt": "2026-11-11T05:50:24.094559Z",
   "catalogMode": "mixed",
   "games": [
     {
@@ -81,6 +81,24 @@
         "https://chobitschii.github.io/chii-arcade/assets/diorama/screenshot-04-2a5d1e1e3718.webp",
         "https://chobitschii.github.io/chii-arcade/assets/diorama/screenshot-05-7492bdd350e3.webp"
       ]
+    },
+    {
+      "id": "numeloria",
+      "title": "Numeloria – Das bunte Zahlenchaos",
+      "category": "Puzzle",
+      "teaser": "Farbenfrohes 3D-Physik-Merge-Puzzle mit Zahlenwürfeln, Kettenreaktionen und Power-ups. Offline, werbefrei und ohne Käufe.",
+      "description": "Numeloria ist ein farbenfrohes 3D-Physik-Puzzlespiel rund um Zahlenwürfel, Schwerkraft und Kettenreaktionen. Lass nummerierte Würfel präzise ins Spielfeld fallen, verschmelze gleiche Zahlen (2+2=4 bis über 2048 hinaus) und löse Kaskaden aus. Wähle im Hauptmenü unabhängig zwischen dem räumlichen 3D-Spielfeld (mehrere Tiefenreihen, Übersichtsansicht & 180°-Kameradrehung) und der klaren flachen Variante (eine Würfelreihe ohne Verdeckung, echte 3D-Kippphysik & direkte horizontale Steuerung). Beide Varianten unterstützen die getrennten Spielmodi Klassisch (Highscore & faires Limit) und Entspannt (ohne Game-over-Zwang) sowie die Physikeinstellungen Lebhaft oder Ruhig. Drei Textgrößen (Klein, Normal, Groß), ruhige Musik und getrennte Lautstärkeregler, Power-ups (Hammer, Zahlenmagnet, Wirbelwind), Deutsch/Englisch, vollständig offline, ohne Werbung oder Käufe.",
+      "symbol": "🎲",
+      "preview": false,
+      "androidRelease": {
+        "packageName": "de.chobitschii.numeloria",
+        "versionName": "0.7.0",
+        "versionCode": 5,
+        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/numeloria-v0.7.0/numeloria-v0.7.0.apk",
+        "sizeBytes": 54661359,
+        "sha256": "76b7fab6c58265e2a8b68f756b990e06e962bf073e2b28550318d51634800c67",
+        "signingCertificateSha256": "1b80d7dd7003a509335cb14f3d57503093cb7a7a6c2afeee1d7fd65e9b28c44c"
+      }
     }
   ]
 }

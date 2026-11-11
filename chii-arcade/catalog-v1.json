@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-11T05:50:24.094559Z",
+  "generatedAt": "2026-11-11T05:50:50.944053Z",
   "catalogMode": "mixed",
   "games": [
     {
@@ -98,7 +98,16 @@
         "sizeBytes": 54661359,
         "sha256": "76b7fab6c58265e2a8b68f756b990e06e962bf073e2b28550318d51634800c67",
         "signingCertificateSha256": "1b80d7dd7003a509335cb14f3d57503093cb7a7a6c2afeee1d7fd65e9b28c44c"
-      }
+      },
+      "coverImage": "https://chobitschii.github.io/chii-arcade/assets/numeloria/cover-d371403fc883.webp",
+      "screenshots": [
+        "https://chobitschii.github.io/chii-arcade/assets/numeloria/screenshot-01-1fdc98733ccb.webp",
+        "https://chobitschii.github.io/chii-arcade/assets/numeloria/screenshot-02-bfcb91cded33.webp",
+        "https://chobitschii.github.io/chii-arcade/assets/numeloria/screenshot-03-6bd6c0d90fcb.webp",
+        "https://chobitschii.github.io/chii-arcade/assets/numeloria/screenshot-04-84f6516a3917.webp",
+        "https://chobitschii.github.io/chii-arcade/assets/numeloria/screenshot-05-3a4de0feac28.webp",
+        "https://chobitschii.github.io/chii-arcade/assets/numeloria/screenshot-06-c0f0d874a96c.webp"
+      ]
     }
   ]
 }

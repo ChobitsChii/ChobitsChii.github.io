@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T02:39:55.479271Z",
+  "generatedAt": "2026-11-23T02:40:12.902499Z",
   "catalogMode": "mixed",
   "games": [
     {
@@ -184,6 +184,24 @@
         "https://chobitschii.github.io/chii-arcade/assets/vier-gewinnt/screenshot-03-9f4444344fac.webp",
         "https://chobitschii.github.io/chii-arcade/assets/vier-gewinnt/screenshot-04-e5ec7eeb8bf0.webp"
       ]
+    },
+    {
+      "id": "block-stack",
+      "title": "Block Stack",
+      "category": "Puzzle",
+      "teaser": "Modernes Guideline-Blockpuzzle in Glas-Neon-Optik mit Marathon, Sprint, Ultra, CPU-Duell und Farbenblindheitsmodus.",
+      "description": "Schnelles, modernes Guideline-Blockpuzzle in edler Glas- und Neon-Optik mit präzisen SRS-Wall-Kicks, fairem 7-Bag-Zufallsgenerator, Hold-Funktion, Ghost Piece sowie T-Spin-, Back-to-Back- und Combo-Wertung. Spiele in 4 Modi: Marathon (15 Geschwindigkeitsstufen), 40-Reihen-Sprint gegen die Uhr, 2-Minuten-Ultra-Highscorejagd oder im direkten Duell gegen die Dellacherie-CPU mit Müllreihen-Angriffen und -Kontern. Im Optionsmenü lassen sich DAS- und ARR-Verzögerungen sowie eindeutige Vektor-Symbole für Farbenblindheit frei anpassen. Mit dedizierter Android-Multi-Touch-Steuerung im Querformat, Puzzle-Synth-Musik, Deutsch und Englisch – vollständig offline, werbefrei und ohne Käufe.",
+      "symbol": "🟦",
+      "preview": false,
+      "androidRelease": {
+        "packageName": "de.chobitschii.block_stack",
+        "versionName": "1.2.0",
+        "versionCode": 10200,
+        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/block-stack-v1.2.0/block_stack-v1.2.0-android.apk",
+        "sizeBytes": 59182174,
+        "sha256": "ea12837e01f043d08c4522ee6eafb0d8c1245b5b7992d4f893bcc5342ba94763",
+        "signingCertificateSha256": "197d0294c7084604ca30a4790b9ee03b2f3a6d73b65d7ff924c48b7904c493fa"
+      }
     }
   ]
 }

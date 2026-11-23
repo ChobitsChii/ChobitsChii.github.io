@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-13T05:42:07.636181Z",
+  "generatedAt": "2026-11-23T02:38:52.509896Z",
   "catalogMode": "mixed",
   "games": [
     {
@@ -109,6 +109,24 @@
         "https://chobitschii.github.io/chii-arcade/assets/numeloria/screenshot-05-3a4de0feac28.webp",
         "https://chobitschii.github.io/chii-arcade/assets/numeloria/screenshot-06-84d6ca7f513f.webp"
       ]
+    },
+    {
+      "id": "neon-breakout",
+      "title": "Neon Breakout",
+      "category": "Arcade",
+      "teaser": "Moderner Synthwave-Breakout mit 7 Spielmodi, 10 Leveln, 6 Power-ups, Bosskämpfen und dynamischer Chiptune-Musik.",
+      "description": "Erlebe einen modernen, hochauflösenden Synthwave-Breakout ohne Pixel-Art mit dynamischer Chiptune-Musik und 7 abwechslungsreichen Spielmodi: Klassisch (10 handgebaute Level, 3 Leben, Bestenliste), Zeitangriff (Richtzeiten & Zeitbonus), Endlos (nachrückende Blockreihen), Chaos (umgekehrte Steuerung, Geisterblöcke, Turbo-Ball, Mini-Schläger, Power-up-Regen, doppelte Punkte), Bosskampf (3-Phasen-Boss mit eigenen Angriffsmustern), Zen (entspanntes Spielen ohne Lebensverlust) sowie Demo-Autopilot mit Live-Strategietipps. Sammle 6 Power-ups (Breiter Schläger, Multiball bis 8 Bälle, Laser, Klebrig, Langsam, Extraleben) und baue deinen Combo-Multiplikator bis ×4 aus. Optimiert für Touch-Steuerung im Querformat, Deutsch und Englisch – vollständig offline, werbefrei und ohne Käufe.",
+      "symbol": "🧱",
+      "preview": false,
+      "androidRelease": {
+        "packageName": "de.chobitschii.neon_breakout",
+        "versionName": "1.1.2",
+        "versionCode": 10102,
+        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/neon-breakout-v1.1.2/neon_breakout-v1.1.2-android.apk",
+        "sizeBytes": 55803544,
+        "sha256": "1d0a678f2893fa7007ae707932c2bf37ee4c4ed8cc2538f1cde25a9d3973f6cd",
+        "signingCertificateSha256": "2c1f8ff473aab180526b20ec99b919ecbba1131925b87dc41f63e0ca7d51245b"
+      }
     }
   ]
 }

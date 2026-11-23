@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T02:39:29.158673Z",
+  "generatedAt": "2026-11-23T02:39:45.730160Z",
   "catalogMode": "mixed",
   "games": [
     {
@@ -159,6 +159,24 @@
         "https://chobitschii.github.io/chii-arcade/assets/asteroid-drift/screenshot-03-32ee7806135e.webp",
         "https://chobitschii.github.io/chii-arcade/assets/asteroid-drift/screenshot-04-643e26548c25.webp"
       ]
+    },
+    {
+      "id": "vier-gewinnt",
+      "title": "Connect Four Deluxe",
+      "category": "Strategie",
+      "teaser": "Klassisches Vier Gewinnt in edler 2.5D-Optik mit starker Bitboard-KI, Hot-Seat-Modus, Zug-Tipps und Farbenblindheitsmodus.",
+      "description": "Das klassische Strategiespiel Vier Gewinnt in hochwertiger 2.5D-Optik auf dem 7×6-Spielbrett. Fordere die schnelle 64-Bit-Bitboard-KI in drei Schwierigkeitsstufen (Leicht, Mittel und Schwer mit Alpha-Beta-Suche und Transpositionstabelle) heraus oder spiele lokal zu zweit im Hot-Seat-Modus. Ein integrierter Zug-Tipp-Berater, eine Zug-Rücknahme (Undo), dauerhaft gespeicherte Spielstatistiken, ein zuschaltbarer Farbenblindheitsmodus mit klaren Ring- und Punktmustern sowie entspannte Lounge-Musik sorgen für höchsten Spielkomfort. Nativ für direkte Spalten-Touch-Bedienung im Querformat gestaltet, auf Deutsch und Englisch – vollständig offline, werbefrei und ohne Käufe.",
+      "symbol": "🟡",
+      "preview": false,
+      "androidRelease": {
+        "packageName": "de.chobitschii.vier_gewinnt",
+        "versionName": "1.2.1",
+        "versionCode": 10201,
+        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/vier-gewinnt-v1.2.1/vier_gewinnt-v1.2.1-android.apk",
+        "sizeBytes": 59114653,
+        "sha256": "d0ce5c99bc4461905adc04caf31d903ebeb83fcac21f6025935504a5f98535af",
+        "signingCertificateSha256": "6bca48784ed9cf871a1c07dc27be5f1defb0d87150bfb8c16ab72f200b998c57"
+      }
     }
   ]
 }

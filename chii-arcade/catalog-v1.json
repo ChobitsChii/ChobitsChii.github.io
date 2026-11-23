@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T02:41:25.073175Z",
+  "generatedAt": "2026-11-23T02:41:28.829614Z",
   "catalogMode": "mixed",
   "games": [
     {
@@ -259,6 +259,24 @@
         "https://chobitschii.github.io/chii-arcade/assets/crypt-dash/screenshot-03-614bc5904117.webp",
         "https://chobitschii.github.io/chii-arcade/assets/crypt-dash/screenshot-04-08cf5588dfee.webp"
       ]
+    },
+    {
+      "id": "lumaria",
+      "title": "Lumaria: The Prismatic Odyssey",
+      "category": "Action-Adventure",
+      "teaser": "Top-Down-Action-Adventure mit Schwertkombos, 4 Prisma-Gadgets, Dorf Oakhaven, 3 Dungeons und 4 mehrphasigen Bossen.",
+      "description": "Begib dich in Lumaria: The Prismatic Odyssey auf ein hochauflösendes Top-Down-Action-Adventure, um die gestohlenen Lichtprismen zurückzuerobern. Erkunde das friedliche Dorf Oakhaven mit illustrierten NPC-Porträtdialogen, durchquere gefährliche Außengebiete und meistere 3 verzweigte Rätsel-Dungeons (Wurzel-Schrein, Klingen-Krypta, Sturm-Bastion) bis zum großen Finale im Ewigen Turm gegen Malakor. Kämpfe mit 3er-Schwertkombos, aufgeladenem 360°-Rundumschlag, Ausweichrolle und präzisem Schild-Parry und setze 4 freischaltbare Prisma-Gadgets ein: Prisma-Bumerang, Kinetisches Fangseil (Hookshot), Schallbomben und Prisma-Bogen. Mit 3 separaten Speicherplätzen, virtuellem Action-RPG-Gamepad für Android im Querformat, Deutsch und Englisch – vollständig offline, werbefrei und ohne Käufe.",
+      "symbol": "💎",
+      "preview": false,
+      "androidRelease": {
+        "packageName": "de.chobitschii.lumaria",
+        "versionName": "1.0.1",
+        "versionCode": 10001,
+        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/lumaria-v1.0.1/lumaria-v1.0.1-android.apk",
+        "sizeBytes": 67617708,
+        "sha256": "2ea56d5135f0f3491d48d1f6e1484959024cf601f5a4a86324d5fd94a37e171e",
+        "signingCertificateSha256": "ca0d843d9013e0445624280ed786bde834de12d3e0f07c92592d3851510474db"
+      }
     }
   ]
 }

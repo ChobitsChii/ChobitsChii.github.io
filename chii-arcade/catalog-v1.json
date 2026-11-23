@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T02:39:19.515646Z",
+  "generatedAt": "2026-11-23T02:39:29.158673Z",
   "catalogMode": "mixed",
   "games": [
     {
@@ -151,7 +151,14 @@
         "sizeBytes": 55314735,
         "sha256": "b2dd0cb332a87680e8d14cccf18d6230ec008bee5572ebc09e738227a8f6e5dc",
         "signingCertificateSha256": "6e01bb726481756ef6983175dc1cce649aa3c02ba77e50b4b14b3f34f5664aca"
-      }
+      },
+      "coverImage": "https://chobitschii.github.io/chii-arcade/assets/asteroid-drift/cover-1b0be8d26b3b.webp",
+      "screenshots": [
+        "https://chobitschii.github.io/chii-arcade/assets/asteroid-drift/screenshot-01-5447d4230171.webp",
+        "https://chobitschii.github.io/chii-arcade/assets/asteroid-drift/screenshot-02-6d2f5226c1a9.webp",
+        "https://chobitschii.github.io/chii-arcade/assets/asteroid-drift/screenshot-03-32ee7806135e.webp",
+        "https://chobitschii.github.io/chii-arcade/assets/asteroid-drift/screenshot-04-643e26548c25.webp"
+      ]
     }
   ]
 }

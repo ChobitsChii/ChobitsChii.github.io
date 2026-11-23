@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T04:09:17.274571Z",
+  "generatedAt": "2026-11-23T04:09:22.159110Z",
   "catalogMode": "mixed",
   "games": [
     {
@@ -270,11 +270,11 @@
       "preview": false,
       "androidRelease": {
         "packageName": "de.chobitschii.lumaria",
-        "versionName": "1.0.1",
-        "versionCode": 10001,
-        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/lumaria-v1.0.1/lumaria-v1.0.1-android.apk",
-        "sizeBytes": 67617708,
-        "sha256": "2ea56d5135f0f3491d48d1f6e1484959024cf601f5a4a86324d5fd94a37e171e",
+        "versionName": "1.0.2",
+        "versionCode": 10002,
+        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/lumaria-v1.0.2/lumaria-v1.0.2-android.apk",
+        "sizeBytes": 71874602,
+        "sha256": "272a7e989e4962013d2aafa29b17f0b96a493ae583785b49ce44c469077d7bb3",
         "signingCertificateSha256": "ca0d843d9013e0445624280ed786bde834de12d3e0f07c92592d3851510474db"
       },
       "coverImage": "https://chobitschii.github.io/chii-arcade/assets/lumaria/cover-7d0f0d014504.webp",

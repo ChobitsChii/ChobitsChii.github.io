@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T02:39:02.943884Z",
+  "generatedAt": "2026-11-23T02:39:19.515646Z",
   "catalogMode": "mixed",
   "games": [
     {
@@ -134,6 +134,24 @@
         "https://chobitschii.github.io/chii-arcade/assets/neon-breakout/screenshot-03-8d866e611439.webp",
         "https://chobitschii.github.io/chii-arcade/assets/neon-breakout/screenshot-04-080fe73bf0d0.webp"
       ]
+    },
+    {
+      "id": "asteroid-drift",
+      "title": "Asteroid Drift",
+      "category": "Arcade-Shooter",
+      "teaser": "Vektor-Weltraum-Shooter mit Trägheitsphysik, UFOs, Annäherungsminen und Deckbau-Tech-Upgrades nach jeder Welle.",
+      "description": "Steuere dein Raumschiff mit echter Trägheitsphysik und Bildschirm-Wrap-around durch ein prozedurales Asteroidenfeld im leuchtenden Flat-Vektor-Stil. Zerstöre mehrstufig zerfallende Asteroiden, weiche jagenden UFO-Gegnern und blinkenden Annäherungsminen aus und nutze im Notfall den Hyperspace-Sprung oder deinen regenerierenden Energieschild. Nach jeder überstandenen Welle wählst du aus 6 stapelbaren Deckbau-Tech-Karten (Doppelschuss, Streuschuss, Explosivmunition, Schnellfeuer, Schild-Boost und Beute-Magnet). Mit synthetisierter Space-Ambient-Musik, dedizierter Android-Multi-Touch-Steuerung im Querformat, Deutsch und Englisch – vollständig offline, werbefrei und ohne Käufe.",
+      "symbol": "🚀",
+      "preview": false,
+      "androidRelease": {
+        "packageName": "de.chobitschii.asteroid_drift",
+        "versionName": "1.0.5",
+        "versionCode": 10005,
+        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/asteroid-drift-v1.0.5/asteroid_drift-v1.0.5-android.apk",
+        "sizeBytes": 55314735,
+        "sha256": "b2dd0cb332a87680e8d14cccf18d6230ec008bee5572ebc09e738227a8f6e5dc",
+        "signingCertificateSha256": "6e01bb726481756ef6983175dc1cce649aa3c02ba77e50b4b14b3f34f5664aca"
+      }
     }
   ]
 }

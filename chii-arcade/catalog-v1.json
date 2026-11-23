@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T02:41:13.958008Z",
+  "generatedAt": "2026-11-23T02:41:25.073175Z",
   "catalogMode": "mixed",
   "games": [
     {
@@ -251,7 +251,14 @@
         "sizeBytes": 58646651,
         "sha256": "5b5b5ac34c8de0283ca050a483dddb2f3102ae26d77b3faded6c7c0bae19df64",
         "signingCertificateSha256": "3ccebe94fa10c7bd87cb2bf65550db66aea072c94a0c86a15cf145b0fe81b00b"
-      }
+      },
+      "coverImage": "https://chobitschii.github.io/chii-arcade/assets/crypt-dash/cover-f60fa8597ed7.webp",
+      "screenshots": [
+        "https://chobitschii.github.io/chii-arcade/assets/crypt-dash/screenshot-01-e8dbe77b7cee.webp",
+        "https://chobitschii.github.io/chii-arcade/assets/crypt-dash/screenshot-02-d68e619bd6d7.webp",
+        "https://chobitschii.github.io/chii-arcade/assets/crypt-dash/screenshot-03-614bc5904117.webp",
+        "https://chobitschii.github.io/chii-arcade/assets/crypt-dash/screenshot-04-08cf5588dfee.webp"
+      ]
     }
   ]
 }

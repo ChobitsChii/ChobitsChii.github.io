@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T04:08:56.520071Z",
+  "generatedAt": "2026-11-23T04:09:17.274571Z",
   "catalogMode": "mixed",
   "games": [
     {
@@ -220,11 +220,11 @@
       "preview": false,
       "androidRelease": {
         "packageName": "de.chobitschii.lane_defenders",
-        "versionName": "1.5.4",
-        "versionCode": 10504,
-        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/lane-defenders-v1.5.4/lane_defenders-v1.5.4-android.apk",
-        "sizeBytes": 70977099,
-        "sha256": "ae09cf38a0826fba4a29ae0936bd9df8895c079acd2cb4526402b54b28681453",
+        "versionName": "1.5.5",
+        "versionCode": 10505,
+        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/lane-defenders-v1.5.5/lane_defenders-v1.5.5-android.apk",
+        "sizeBytes": 74525554,
+        "sha256": "63407e3e75d5bb4eb4d92d01b11895049c9aecc78dd43fff02e6b513b635b197",
         "signingCertificateSha256": "776ecbdcc7bc00c7a8b826289ea252ee4781933b1f5a23e2128b1e26c6fd0bab"
       },
       "coverImage": "https://chobitschii.github.io/chii-arcade/assets/lane-defenders/cover-c4087f6dd8da.webp",

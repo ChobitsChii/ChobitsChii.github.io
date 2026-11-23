@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T02:40:22.265362Z",
+  "generatedAt": "2026-11-23T02:40:41.864515Z",
   "catalogMode": "mixed",
   "games": [
     {
@@ -209,6 +209,24 @@
         "https://chobitschii.github.io/chii-arcade/assets/block-stack/screenshot-03-7e165da17994.webp",
         "https://chobitschii.github.io/chii-arcade/assets/block-stack/screenshot-04-2d7d7a5d3b13.webp"
       ]
+    },
+    {
+      "id": "lane-defenders",
+      "title": "Lane Defenders",
+      "category": "Tower Defense",
+      "teaser": "Taktisches 5-Lanes-Tower-Defense durch 4 Welten, 20 Level und 4 epische Bosskämpfe mit 7 Einheiten und Lexikon.",
+      "description": "Verteidige dein 5×9-Schlachtfeld in diesem farbenfrohen, taktischen Lane-Tower-Defense durch 4 abwechslungsreiche Welten (Grüne Wiese, Dunkler Pfad, Winterwald und Magma-Ödland) mit insgesamt 20 Leveln und 4 großen Welt-Bossen. Sammle Sonnen-Energie, baue eine clevere Wirtschaft mit Generatoren auf und kombiniere 7 Verteidigungseinheiten (darunter Schützen, Doppelschützen, Frosttürme, Schutzmauern und Minen) gegen 6 spezialisierte Gegnertypen. Mit interaktivem In-Game-Lexikon (Almanach), automatischer Fortschrittsspeicherung, fröhlicher Meadow-Musik, direkter Touch-Steuerung im Querformat, Deutsch und Englisch – vollständig offline, werbefrei und ohne Käufe.",
+      "symbol": "🛡️",
+      "preview": false,
+      "androidRelease": {
+        "packageName": "de.chobitschii.lane_defenders",
+        "versionName": "1.5.4",
+        "versionCode": 10504,
+        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/lane-defenders-v1.5.4/lane_defenders-v1.5.4-android.apk",
+        "sizeBytes": 70977099,
+        "sha256": "ae09cf38a0826fba4a29ae0936bd9df8895c079acd2cb4526402b54b28681453",
+        "signingCertificateSha256": "776ecbdcc7bc00c7a8b826289ea252ee4781933b1f5a23e2128b1e26c6fd0bab"
+      }
     }
   ]
 }

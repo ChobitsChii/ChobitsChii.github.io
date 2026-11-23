@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T02:39:45.730160Z",
+  "generatedAt": "2026-11-23T02:39:55.479271Z",
   "catalogMode": "mixed",
   "games": [
     {
@@ -176,7 +176,14 @@
         "sizeBytes": 59114653,
         "sha256": "d0ce5c99bc4461905adc04caf31d903ebeb83fcac21f6025935504a5f98535af",
         "signingCertificateSha256": "6bca48784ed9cf871a1c07dc27be5f1defb0d87150bfb8c16ab72f200b998c57"
-      }
+      },
+      "coverImage": "https://chobitschii.github.io/chii-arcade/assets/vier-gewinnt/cover-3e6d0709833d.webp",
+      "screenshots": [
+        "https://chobitschii.github.io/chii-arcade/assets/vier-gewinnt/screenshot-01-32b5f490957f.webp",
+        "https://chobitschii.github.io/chii-arcade/assets/vier-gewinnt/screenshot-02-1d778e947ae8.webp",
+        "https://chobitschii.github.io/chii-arcade/assets/vier-gewinnt/screenshot-03-9f4444344fac.webp",
+        "https://chobitschii.github.io/chii-arcade/assets/vier-gewinnt/screenshot-04-e5ec7eeb8bf0.webp"
+      ]
     }
   ]
 }

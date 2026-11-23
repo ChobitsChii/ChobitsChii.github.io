@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T02:38:52.509896Z",
+  "generatedAt": "2026-11-23T02:39:02.943884Z",
   "catalogMode": "mixed",
   "games": [
     {
@@ -126,7 +126,14 @@
         "sizeBytes": 55803544,
         "sha256": "1d0a678f2893fa7007ae707932c2bf37ee4c4ed8cc2538f1cde25a9d3973f6cd",
         "signingCertificateSha256": "2c1f8ff473aab180526b20ec99b919ecbba1131925b87dc41f63e0ca7d51245b"
-      }
+      },
+      "coverImage": "https://chobitschii.github.io/chii-arcade/assets/neon-breakout/cover-4c0b180a46f8.webp",
+      "screenshots": [
+        "https://chobitschii.github.io/chii-arcade/assets/neon-breakout/screenshot-01-eb33c15892ce.webp",
+        "https://chobitschii.github.io/chii-arcade/assets/neon-breakout/screenshot-02-409997cb5eb8.webp",
+        "https://chobitschii.github.io/chii-arcade/assets/neon-breakout/screenshot-03-8d866e611439.webp",
+        "https://chobitschii.github.io/chii-arcade/assets/neon-breakout/screenshot-04-080fe73bf0d0.webp"
+      ]
     }
   ]
 }

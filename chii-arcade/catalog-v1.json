@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T02:41:28.829614Z",
+  "generatedAt": "2026-11-23T02:41:40.004700Z",
   "catalogMode": "mixed",
   "games": [
     {
@@ -276,7 +276,14 @@
         "sizeBytes": 67617708,
         "sha256": "2ea56d5135f0f3491d48d1f6e1484959024cf601f5a4a86324d5fd94a37e171e",
         "signingCertificateSha256": "ca0d843d9013e0445624280ed786bde834de12d3e0f07c92592d3851510474db"
-      }
+      },
+      "coverImage": "https://chobitschii.github.io/chii-arcade/assets/lumaria/cover-7d0f0d014504.webp",
+      "screenshots": [
+        "https://chobitschii.github.io/chii-arcade/assets/lumaria/screenshot-01-816421dd7d3a.webp",
+        "https://chobitschii.github.io/chii-arcade/assets/lumaria/screenshot-02-24d57321a3f3.webp",
+        "https://chobitschii.github.io/chii-arcade/assets/lumaria/screenshot-03-4ac0b7339526.webp",
+        "https://chobitschii.github.io/chii-arcade/assets/lumaria/screenshot-04-49d76f1b9af1.webp"
+      ]
     }
   ]
 }

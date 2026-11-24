@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-24T20:55:12.031407Z",
+  "generatedAt": "2026-11-24T20:55:25.088111Z",
   "catalogMode": "mixed",
   "games": [
     {
@@ -227,12 +227,13 @@
         "sha256": "f41aad9eeefbaed5e400b43d4035c020f816d77e93fe545b77256b713b903719",
         "signingCertificateSha256": "776ecbdcc7bc00c7a8b826289ea252ee4781933b1f5a23e2128b1e26c6fd0bab"
       },
-      "coverImage": "https://chobitschii.github.io/chii-arcade/assets/lane-defenders/cover-c4087f6dd8da.webp",
+      "coverImage": "https://chobitschii.github.io/chii-arcade/assets/lane-defenders/cover-24f037adcdcc.webp",
       "screenshots": [
-        "https://chobitschii.github.io/chii-arcade/assets/lane-defenders/screenshot-01-d4722145fa3b.webp",
-        "https://chobitschii.github.io/chii-arcade/assets/lane-defenders/screenshot-02-1b527ad62cc5.webp",
-        "https://chobitschii.github.io/chii-arcade/assets/lane-defenders/screenshot-03-e5cca7cc881d.webp",
-        "https://chobitschii.github.io/chii-arcade/assets/lane-defenders/screenshot-04-1cb4f0948944.webp"
+        "https://chobitschii.github.io/chii-arcade/assets/lane-defenders/screenshot-01-28389b949059.webp",
+        "https://chobitschii.github.io/chii-arcade/assets/lane-defenders/screenshot-02-2e27f51914b3.webp",
+        "https://chobitschii.github.io/chii-arcade/assets/lane-defenders/screenshot-03-85216c5d5de8.webp",
+        "https://chobitschii.github.io/chii-arcade/assets/lane-defenders/screenshot-04-aeb179e1bc15.webp",
+        "https://chobitschii.github.io/chii-arcade/assets/lane-defenders/screenshot-05-1141fd40f350.webp"
       ]
     },
     {

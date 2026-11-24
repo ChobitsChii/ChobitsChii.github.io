@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-24T04:10:36.905521Z",
+  "generatedAt": "2026-11-24T10:36:13.290206Z",
   "catalogMode": "mixed",
   "games": [
     {
@@ -245,11 +245,11 @@
       "preview": false,
       "androidRelease": {
         "packageName": "de.chobitschii.crypt_dash",
-        "versionName": "1.2.0",
-        "versionCode": 10200,
-        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/crypt-dash-v1.2.0/crypt_dash-v1.2.0-android.apk",
-        "sizeBytes": 65064396,
-        "sha256": "c64f2921f3f624ca13982b177e4f66086d88c6357c052702bf9bafa2d92b386a",
+        "versionName": "1.3.0",
+        "versionCode": 10300,
+        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/crypt-dash-v1.3.0/crypt_dash-v1.3.0-android.apk",
+        "sizeBytes": 65076861,
+        "sha256": "dd058394bc70fe9a350a91f39a3e0cfa6de292c4962e2ab6b56bd6d55d6f001c",
         "signingCertificateSha256": "3ccebe94fa10c7bd87cb2bf65550db66aea072c94a0c86a15cf145b0fe81b00b"
       },
       "coverImage": "https://chobitschii.github.io/chii-arcade/assets/crypt-dash/cover-f60fa8597ed7.webp",

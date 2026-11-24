@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-24T12:12:29.354678Z",
+  "generatedAt": "2026-11-24T12:12:44.976215Z",
   "catalogMode": "mixed",
   "games": [
     {
@@ -145,11 +145,11 @@
       "preview": false,
       "androidRelease": {
         "packageName": "de.chobitschii.asteroid_drift",
-        "versionName": "1.0.7",
-        "versionCode": 10007,
-        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/asteroid-drift-v1.0.7/asteroid_drift-v1.0.7-android.apk",
+        "versionName": "1.0.8",
+        "versionCode": 10008,
+        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/asteroid-drift-v1.0.8/asteroid_drift-v1.0.8-android.apk",
         "sizeBytes": 55376244,
-        "sha256": "ed5bbfd233f430fb6e82c19369aba43e093467734f043e76a811db94bdb1959e",
+        "sha256": "d4a663f0ba18134f4fb62939349e3aee2c3868f76a68e2f18b7f92e0158a01ae",
         "signingCertificateSha256": "6e01bb726481756ef6983175dc1cce649aa3c02ba77e50b4b14b3f34f5664aca"
       },
       "coverImage": "https://chobitschii.github.io/chii-arcade/assets/asteroid-drift/cover-1b0be8d26b3b.webp",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-24T12:13:37.894256Z",
+  "generatedAt": "2026-11-24T12:13:54.523524Z",
   "catalogMode": "mixed",
   "games": [
     {
@@ -120,11 +120,11 @@
       "preview": false,
       "androidRelease": {
         "packageName": "de.chobitschii.neon_breakout",
-        "versionName": "1.1.2",
-        "versionCode": 10102,
-        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/neon-breakout-v1.1.2/neon_breakout-v1.1.2-android.apk",
-        "sizeBytes": 55803544,
-        "sha256": "1d0a678f2893fa7007ae707932c2bf37ee4c4ed8cc2538f1cde25a9d3973f6cd",
+        "versionName": "1.1.3",
+        "versionCode": 10103,
+        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/neon-breakout-v1.1.3/neon_breakout-v1.1.3-android.apk",
+        "sizeBytes": 56685505,
+        "sha256": "79648af7ab5fce904b9f402a14017e75f06de4790bf32559926f5636add2e153",
         "signingCertificateSha256": "2c1f8ff473aab180526b20ec99b919ecbba1131925b87dc41f63e0ca7d51245b"
       },
       "coverImage": "https://chobitschii.github.io/chii-arcade/assets/neon-breakout/cover-4c0b180a46f8.webp",

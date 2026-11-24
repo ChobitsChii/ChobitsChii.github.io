@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-24T12:13:02.646144Z",
+  "generatedAt": "2026-11-24T12:13:19.741436Z",
   "catalogMode": "mixed",
   "games": [
     {
@@ -170,11 +170,11 @@
       "preview": false,
       "androidRelease": {
         "packageName": "de.chobitschii.vier_gewinnt",
-        "versionName": "1.2.1",
-        "versionCode": 10201,
-        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/vier-gewinnt-v1.2.1/vier_gewinnt-v1.2.1-android.apk",
-        "sizeBytes": 59114653,
-        "sha256": "d0ce5c99bc4461905adc04caf31d903ebeb83fcac21f6025935504a5f98535af",
+        "versionName": "1.2.2",
+        "versionCode": 10202,
+        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/vier-gewinnt-v1.2.2/vier_gewinnt-v1.2.2-android.apk",
+        "sizeBytes": 60832198,
+        "sha256": "5644eacdbfee72371883c968d258e5c61a33484ec4eb696f134dbb7231428d3f",
         "signingCertificateSha256": "6bca48784ed9cf871a1c07dc27be5f1defb0d87150bfb8c16ab72f200b998c57"
       },
       "coverImage": "https://chobitschii.github.io/chii-arcade/assets/vier-gewinnt/cover-3e6d0709833d.webp",

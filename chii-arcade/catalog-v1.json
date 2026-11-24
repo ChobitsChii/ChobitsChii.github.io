@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-24T12:13:54.523524Z",
+  "generatedAt": "2026-11-24T20:55:12.031407Z",
   "catalogMode": "mixed",
   "games": [
     {
@@ -215,16 +215,16 @@
       "title": "Lane Defenders",
       "category": "Tower Defense",
       "teaser": "Taktisches 5-Lanes-Tower-Defense durch 4 Welten, 20 Level und 4 epische Bosskämpfe mit 7 Einheiten und Lexikon.",
-      "description": "Verteidige dein 5×9-Schlachtfeld in diesem farbenfrohen, taktischen Lane-Tower-Defense durch 4 abwechslungsreiche Welten (Grüne Wiese, Dunkler Pfad, Winterwald und Magma-Ödland) mit insgesamt 20 Leveln und 4 großen Welt-Bossen. Sammle Sonnen-Energie, baue eine clevere Wirtschaft mit Generatoren auf und kombiniere 7 Verteidigungseinheiten (darunter Schützen, Doppelschützen, Frosttürme, Schutzmauern und Minen) gegen 6 spezialisierte Gegnertypen. Mit interaktivem In-Game-Lexikon (Almanach), automatischer Fortschrittsspeicherung, fröhlicher Meadow-Musik, direkter Touch-Steuerung im Querformat, Deutsch und Englisch – vollständig offline, werbefrei und ohne Käufe.",
+      "description": "Verteidige dein 5×9-Burgfeld in diesem farbenfrohen, taktischen Lane-Tower-Defense durch 4 abwechslungsreiche Welten (Grüne Wiese, Dunkler Pfad, Winterwald und Magma-Ödland) mit insgesamt 20 Leveln und 4 großen Welt-Bossen. Sammle Mana-Kristalle, baue eine clevere Wirtschaft mit Mana-Generatoren auf und kombiniere 7 Verteidigungseinheiten gegen 6 spezialisierte Goblin-Typen. Wähle im Menü frei zwischen zwei eigenständigen HD-Fantasy-Designs: Fantasy-Burg-Türme (Default) oder niedliche Chibi-Burghelden! Mit interaktivem In-Game-Lexikon, automatischer Fortschrittsspeicherung, fröhlicher Meadow-Musik, direkter Touch-Steuerung im Querformat, Deutsch und Englisch – vollständig offline, werbefrei und ohne Käufe.",
       "symbol": "🛡️",
       "preview": false,
       "androidRelease": {
         "packageName": "de.chobitschii.lane_defenders",
-        "versionName": "1.5.7",
-        "versionCode": 10507,
-        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/lane-defenders-v1.5.7/lane_defenders-v1.5.7-android.apk",
-        "sizeBytes": 64575122,
-        "sha256": "7cfe85ccf61a0c600723829faf22e073cda33c2c0fab3c713056c466ca6f0c06",
+        "versionName": "1.6.0",
+        "versionCode": 10600,
+        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/lane-defenders-v1.6.0/lane_defenders-v1.6.0-android.apk",
+        "sizeBytes": 65818378,
+        "sha256": "f41aad9eeefbaed5e400b43d4035c020f816d77e93fe545b77256b713b903719",
         "signingCertificateSha256": "776ecbdcc7bc00c7a8b826289ea252ee4781933b1f5a23e2128b1e26c6fd0bab"
       },
       "coverImage": "https://chobitschii.github.io/chii-arcade/assets/lane-defenders/cover-c4087f6dd8da.webp",

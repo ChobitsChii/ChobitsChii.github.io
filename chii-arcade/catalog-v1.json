@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-24T12:12:44.976215Z",
+  "generatedAt": "2026-11-24T12:13:02.646144Z",
   "catalogMode": "mixed",
   "games": [
     {
@@ -195,11 +195,11 @@
       "preview": false,
       "androidRelease": {
         "packageName": "de.chobitschii.block_stack",
-        "versionName": "1.2.0",
-        "versionCode": 10200,
-        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/block-stack-v1.2.0/block_stack-v1.2.0-android.apk",
-        "sizeBytes": 59182174,
-        "sha256": "ea12837e01f043d08c4522ee6eafb0d8c1245b5b7992d4f893bcc5342ba94763",
+        "versionName": "1.2.1",
+        "versionCode": 10201,
+        "apkUrl": "https://github.com/ChobitsChii/games/releases/download/block-stack-v1.2.1/block_stack-v1.2.1-android.apk",
+        "sizeBytes": 60203222,
+        "sha256": "55c5614bf323bf91aaa0c886ff112a5dcb2bf40c32a0d8133c4d63ce17314277",
         "signingCertificateSha256": "197d0294c7084604ca30a4790b9ee03b2f3a6d73b65d7ff924c48b7904c493fa"
       },
       "coverImage": "https://chobitschii.github.io/chii-arcade/assets/block-stack/cover-39d0fbdbfc95.webp",
